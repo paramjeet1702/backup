@@ -1,0 +1,1200 @@
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/home/dstadminuser/dashboard']
+INFO:     Uvicorn running on http://0.0.0.0:8125 (Press CTRL+C to quit)
+INFO:     Started reloader process [81174] using StatReload
+INFO:     Started server process [81177]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.231:50316 - "GET /docs HTTP/1.1" 200 OK
+INFO:     103.35.132.231:50316 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.231:50317 - "GET /app2/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.231:50317 - "GET /app2/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.231:62506 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.231:62507 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.231:62507 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.231:62517 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.231:62507 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.231:56636 - "GET /app2/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.231:56636 - "GET /app2/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.231:56636 - "GET /app2/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.231:56636 - "GET /app2/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.231:49988 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.231:49988 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.231:49993 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.231:49988 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.231:50073 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.231:50074 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.231:50074 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.231:50075 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.231:50074 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.231:50074 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.231:50085 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:50083 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:50088 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:50087 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:50086 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:50082 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:50097 - "POST /app3/upload_image/ HTTP/1.1" 200 OK
+INFO:     103.35.132.231:50097 - "OPTIONS /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.231:50098 - "POST /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.231:50098 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.231:50084 - "GET /app3/image/param/test_agent HTTP/1.1" 200 OK
+INFO:     103.35.132.231:50100 - "DELETE /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.231:50100 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     35.203.210.156:60396 - "GET / HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:57935 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.231:57936 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.231:57936 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.231:57939 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.231:57936 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.231:52052 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.231:52057 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:52058 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:52062 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:52063 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:52059 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:52061 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     147.185.132.130:63284 - "GET / HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:19156 - "GET / HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:19156 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:18662 - "GET / HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:10555 - "GET / HTTP/1.1" 404 Not Found
+INFO:     117.198.26.49:55005 - "GET / HTTP/1.1" 404 Not Found
+INFO:     117.198.26.49:55005 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:51935 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.231:51936 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.231:51936 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.231:51938 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.231:51936 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:63603 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.93.196.76:63605 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.93.196.76:63605 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.93.196.76:63603 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:63603 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:63608 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     117.198.26.49:63674 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     117.198.26.49:63675 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     117.198.26.49:63675 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.198.26.49:63674 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:63675 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:63678 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.198.26.49:63683 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:63678 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58452 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58452 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58453 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58452 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58452 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58453 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58454 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58454 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58452 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58453 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58453 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58454 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58452 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58452 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58453 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58454 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58464 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58463 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53307 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58469 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53309 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53309 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53307 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53307 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58469 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58464 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58463 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53312 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53315 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53312 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53312 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53315 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53316 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58481 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58480 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58483 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58491 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58492 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58494 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58494 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     117.198.26.49:63684 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.93.196.76:58497 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     103.93.196.76:58496 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     103.93.196.76:58500 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     103.93.196.76:58495 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     103.93.196.76:58499 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     103.93.196.76:58498 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     117.198.26.49:63703 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     117.198.26.49:63706 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     117.198.26.49:63704 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     117.198.26.49:63708 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     117.198.26.49:63707 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     117.198.26.49:63709 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     117.235.171.81:53327 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53331 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     117.235.171.81:53333 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     117.235.171.81:53328 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     117.235.171.81:53332 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     117.235.171.81:53330 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     117.235.171.81:53329 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     117.235.171.81:53334 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53335 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53337 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:63715 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.198.26.49:63716 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:63718 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53339 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53340 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53340 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53342 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53353 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     117.235.171.81:53356 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     117.235.171.81:53355 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     117.235.171.81:53354 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     117.235.171.81:53357 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     117.235.171.81:53352 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     117.235.171.81:53342 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53358 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.235.171.81:53342 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51668 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51671 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51668 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.231:58103 - "OPTIONS /app2/signup HTTP/1.1" 200 OK
+INFO:     103.35.132.231:58104 - "POST /app2/signup HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51714 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51715 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51717 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51721 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51722 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51724 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51721 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51722 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51724 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51722 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51721 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51724 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51721 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51722 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51724 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51724 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51721 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51722 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51724 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51721 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51722 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     117.198.26.49:51722 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:16120 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:16433 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:16433 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:16120 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:16433 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:16433 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     106.222.222.123:20653 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:14606 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:12404 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:4752 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:1556 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:21726 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:10291 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:33162 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:33162 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:4102 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:4102 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     147.185.132.107:63904 - "GET / HTTP/1.1" 404 Not Found
+INFO:     162.216.150.96:64192 - "GET / HTTP/1.1" 404 Not Found
+INFO:     162.216.149.66:59190 - "GET / HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:18831 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:26523 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:22515 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:18831 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:26523 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:22515 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:30798 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     106.222.222.123:17701 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:6039 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:12837 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:5477 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:18100 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:11949 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:23855 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:24519 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:3809 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:28786 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7369 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:12026 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:18799 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:12402 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:28458 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:19493 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:2539 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:23533 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:23533 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:21149 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:20385 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:31989 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:1811 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:4215 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:20706 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:2440 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:29689 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:29689 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:2440 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:2440 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:26190 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:26190 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:9748 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:26190 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:11526 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:11526 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:4996 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:11526 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:11368 - "POST /app2/signin HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:26749 - "OPTIONS /app2/signup HTTP/1.1" 200 OK
+INFO:     106.222.222.123:8307 - "POST /app2/signup HTTP/1.1" 200 OK
+INFO:     106.222.222.123:2812 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:2812 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:30624 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:2812 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:12385 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:12385 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:31140 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:12385 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:32933 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:14654 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:14654 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:32933 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:14654 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:31856 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:5674 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:5362 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:29410 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     106.222.222.123:12578 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:14209 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:22294 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:2552 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:5314 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:8968 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:22106 - "OPTIONS /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     106.222.222.123:18342 - "PUT /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     106.222.222.123:18342 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.231:56724 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.231:56725 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.231:56725 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.231:56727 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.231:56725 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.231:56733 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.231:56735 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:56737 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:56739 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:56744 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:56738 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.231:56740 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:7257 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:9965 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:4975 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:19013 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     106.222.222.123:19161 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:11578 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:21381 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:24316 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:17876 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:31288 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:16449 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:21294 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:25476 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:25476 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:16449 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:21294 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:28648 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     106.222.222.123:20481 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:11482 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:21353 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:22322 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:29819 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:16555 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:7963 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:1356 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7963 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:1356 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:21196 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7963 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7963 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:1356 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:21196 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:21196 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7963 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:1356 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:8957 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     106.222.222.123:16603 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:18712 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:2091 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:5409 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:22220 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:6553 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:8957 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:29628 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:8957 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:29628 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:1409 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:8957 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:8957 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:29628 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:1409 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:26814 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     106.222.222.123:22847 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:19389 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:20596 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:25675 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:10067 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:20065 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:14513 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:16220 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:16220 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:14513 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:18871 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:16220 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.231:63525 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.231:63525 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.231:63526 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.231:63525 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.231:63525 - "GET /app2/api/user-keys?username=ram HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:12547 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7215 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:20870 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:20870 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:12547 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7215 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:20251 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:21161 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:21161 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:20251 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:22001 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:22001 - "GET /app2/api/user-keys?username=ram HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:29271 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:20824 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:11283 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:55561 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.228:55562 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.228:55562 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:55563 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:55562 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:57926 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.228:57926 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:57927 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:57926 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:57944 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.228:57950 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:57945 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:57947 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:57949 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:57946 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:57951 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:55112 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:55113 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:55115 - "GET /app1/api/agents HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [81177]
+INFO:     Started server process [328668]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [328668]
+INFO:     Started server process [328712]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [328712]
+INFO:     Started server process [328751]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [328751]
+INFO:     Started server process [328752]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [328752]
+INFO:     Started server process [328753]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [328753]
+INFO:     Started server process [328756]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [328756]
+Process SpawnProcess-8:
+Traceback (most recent call last):
+  File "/home/dstadminuser/miniconda3/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/dstadminuser/miniconda3/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/miniconda3/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/miniconda3/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/miniconda3/lib/python3.12/asyncio/base_events.py", line 686, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/miniconda3/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/dstadminuser/dashboard/main.py", line 12, in <module>
+    app.mount("/app3", app4)
+                       ^^^^
+NameError: name 'app4' is not defined. Did you mean: 'app1'?
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Started server process [328772]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.228:56355 - "GET /app2/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.228:56355 - "GET /app2/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.228:56354 - "GET /app4/docs HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:56354 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [328772]
+INFO:     Started server process [328775]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.228:56358 - "GET /app4/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.228:56358 - "GET /app4/openapi.json HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [328775]
+INFO:     Started server process [328778]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.228:56367 - "GET /app4/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.228:56367 - "GET /app4/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.228:56366 - "POST /app4/admin-signup HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 460, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2461, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 962, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/admin.py", line 70, in register
+    success = register_admin(credentials.username, credentials.password)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/admin.py", line 37, in register_admin
+    cursor.execute('''
+sqlite3.OperationalError: no such table: admin
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [328778]
+INFO:     Started server process [328788]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [328788]
+INFO:     Started server process [328792]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [328792]
+INFO:     Started server process [328793]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.228:56389 - "GET /app4/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.228:56389 - "GET /app4/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.228:56388 - "POST /app4/admin-signup HTTP/1.1" 200 OK
+INFO:     103.35.132.228:56390 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [328793]
+INFO:     Started server process [328800]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.228:63547 - "OPTIONS /app4/admin-signin HTTP/1.1" 405 Method Not Allowed
+INFO:     103.35.132.228:63548 - "OPTIONS /app4/admin-signin HTTP/1.1" 405 Method Not Allowed
+INFO:     103.35.132.228:63572 - "OPTIONS /app4/admin-signin HTTP/1.1" 405 Method Not Allowed
+INFO:     103.35.132.228:60567 - "GET /app4/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.228:60567 - "GET /app4/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.228:60566 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.228:60594 - "OPTIONS /app4/admin-signin HTTP/1.1" 405 Method Not Allowed
+INFO:     103.35.132.228:60629 - "OPTIONS /app4/admin-signin HTTP/1.1" 405 Method Not Allowed
+INFO:     103.35.132.228:53282 - "OPTIONS /app4/admin-signin HTTP/1.1" 405 Method Not Allowed
+INFO:     103.35.132.228:53296 - "OPTIONS /app4/admin-signin HTTP/1.1" 405 Method Not Allowed
+INFO:     103.35.132.228:53313 - "OPTIONS /app4/admin-signup HTTP/1.1" 405 Method Not Allowed
+INFO:     103.35.132.228:63485 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63486 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63486 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63485 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63485 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63322 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63321 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63323 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63345 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63346 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63347 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63345 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63346 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63345 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63359 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63373 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63373 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63359 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63373 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63373 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63359 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63376 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63376 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63388 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:63390 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:63392 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:63376 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63394 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:63389 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:63393 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:63397 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:63398 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:63391 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:63408 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63409 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:63409 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:53306 - "OPTIONS /app4/admin-signin HTTP/1.1" 405 Method Not Allowed
+INFO:     103.35.132.228:53492 - "OPTIONS /app4/admin-signin HTTP/1.1" 405 Method Not Allowed
+INFO:     103.35.132.228:53544 - "OPTIONS /app4/admin-signin HTTP/1.1" 405 Method Not Allowed
+INFO:     103.35.132.228:61199 - "OPTIONS /app4/admin-signin HTTP/1.1" 405 Method Not Allowed
+INFO:     103.35.132.228:61211 - "OPTIONS /app4/admin-signup HTTP/1.1" 405 Method Not Allowed
+INFO:     103.35.132.228:61213 - "OPTIONS /app4/admin-signin HTTP/1.1" 405 Method Not Allowed
+INFO:     103.35.132.228:61293 - "OPTIONS /app4/admin-signin HTTP/1.1" 405 Method Not Allowed
+INFO:     172.178.112.88:40652 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.228:55138 - "OPTIONS /app4/admin-signin HTTP/1.1" 405 Method Not Allowed
+INFO:     103.35.132.228:55142 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.228:55154 - "OPTIONS /app4/admin-signin HTTP/1.1" 405 Method Not Allowed
+INFO:     103.35.132.228:55172 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.228:55173 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.228:55173 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:55172 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:55173 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:55181 - "GET /app2/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.228:55181 - "GET /app2/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.228:55182 - "POST /app2/signin HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [328800]
+INFO:     Started server process [336358]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [336358]
+INFO:     Started server process [336360]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [336360]
+INFO:     Started server process [336385]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.228:56448 - "GET /app2/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.228:56448 - "GET /app2/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.228:56447 - "POST /app2/signin HTTP/1.1" 401 Unauthorized
+INFO:     103.35.132.228:56457 - "GET /app4/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.228:56457 - "GET /app4/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.228:56456 - "POST /app4/admin-signup HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [336385]
+INFO:     Started server process [336447]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.228:56463 - "GET /app4/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.228:56463 - "GET /app4/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.228:56464 - "POST /app4/admin-signup HTTP/1.1" 200 OK
+INFO:     103.35.132.228:56469 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.228:56488 - "OPTIONS /app4/admin-signin HTTP/1.1" 405 Method Not Allowed
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [336447]
+Process SpawnProcess-20:
+Traceback (most recent call last):
+  File "/home/dstadminuser/miniconda3/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/dstadminuser/miniconda3/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/miniconda3/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/miniconda3/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/miniconda3/lib/python3.12/asyncio/base_events.py", line 686, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/miniconda3/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/dstadminuser/dashboard/main.py", line 5, in <module>
+    from admin import app as app4
+  File "/home/dstadminuser/dashboard/admin.py", line 8, in <module>
+    CORSMiddleware,
+    ^^^^^^^^^^^^^^
+NameError: name 'CORSMiddleware' is not defined
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+WARNING:  StatReload detected changes in 'admin.py'. Reloading...
+INFO:     Started server process [337051]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.228:62278 - "OPTIONS /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.228:62279 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.228:62279 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:62278 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:62281 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:49355 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:49356 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:49360 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:49360 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:49356 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:49355 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:59590 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:59590 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:59595 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:59590 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:59590 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:59590 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:59595 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:59596 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:59596 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 404 Not Found
+INFO:     103.35.132.228:59596 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.228:59590 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.228:59595 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64880 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64882 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64887 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64887 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64889 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64887 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64887 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64889 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64890 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64904 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64905 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64905 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64909 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64909 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64909 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64909 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64909 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64913 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64909 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64917 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64936 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64917 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64939 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64955 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64939 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64956 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64959 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64956 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57409 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57410 - "POST /app2/signin HTTP/1.1" 401 Unauthorized
+INFO:     103.35.132.230:57413 - "OPTIONS /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57414 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57414 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57413 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57416 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57416 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57414 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57413 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57427 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57427 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57429 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57427 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57434 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57434 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57446 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57434 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57449 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57458 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57449 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57462 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57468 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57462 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57484 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57485 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57486 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57496 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57497 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57496 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57500 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57500 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57519 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:57500 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51341 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51342 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51342 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51344 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51344 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56338 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51344 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59737 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59738 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59740 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60221 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60220 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60223 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60251 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60252 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60252 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60251 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60251 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60251 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60252 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60253 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60164 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60165 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60168 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54103 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54104 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54103 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50084 - "OPTIONS /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50085 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50085 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50084 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50086 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50105 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50106 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50106 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50105 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50107 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50113 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50115 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50115 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50144 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50149 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:50150 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:50152 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:50148 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:50154 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:50153 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:50155 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50156 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50160 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64084 - "OPTIONS /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64085 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64085 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64084 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64084 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64088 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64100 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64100 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64088 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64088 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51265 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51265 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51274 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51265 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51278 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51291 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51278 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51305 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51305 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51306 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:51305 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58761 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58762 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58763 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58796 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58795 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58797 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58810 - "OPTIONS /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58811 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58811 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58810 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58811 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58815 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58831 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58831 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58815 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58833 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58870 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58870 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58871 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58870 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58872 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:58872 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59899 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:58872 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59906 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:59906 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59910 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59906 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59906 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:56603 - "GET /app2/api/admin-keys HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:56604 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:56617 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56618 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56617 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56618 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56622 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56618 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56617 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56622 - "GET /app2/api/admin-keys HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:56630 - "POST /app2/signin HTTP/1.1" 401 Unauthorized
+INFO:     103.35.132.230:56642 - "OPTIONS /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56643 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56643 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56642 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56642 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56643 - "GET /app2/api/admin-keys HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:56642 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:56645 - "POST /app3/upload_image/ HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56645 - "OPTIONS /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56651 - "POST /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56651 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56645 - "GET /app2/api/admin-keys HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:56651 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56645 - "GET /app2/api/admin-keys HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:56666 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56666 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56667 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56667 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56666 - "GET /app2/api/admin-keys HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:56667 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56666 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56667 - "GET /app2/api/admin-keys HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:56669 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56669 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56686 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56669 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56669 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 200 OK
+INFO:     103.35.132.230:56686 - "GET /app2/api/admin-keys HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60280 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60281 - "GET /app2/api/admin-keys HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60297 - "POST /app3/upload_image/ HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60297 - "POST /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60297 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60298 - "GET /app2/api/admin-keys HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60308 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60309 - "GET /app2/api/admin-keys HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60355 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60356 - "GET /app3/image/defaultUser/test HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60357 - "GET /app3/image/defaultUser/f HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60373 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60373 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60374 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60373 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60373 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60377 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60378 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60379 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60381 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60383 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60380 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60422 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60438 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60442 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60437 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60441 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60440 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60444 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60453 - "OPTIONS /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60455 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60455 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60453 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60453 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60453 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60439 - "GET /app3/image/defaultUser/test HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60460 - "GET /app3/image/defaultUser/f HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60457 - "POST /app3/upload_image/ HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60457 - "OPTIONS /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54069 - "POST /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54069 - "GET /app2/api/user-keys?username=defaultUser HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54070 - "GET /app3/image/defaultUser/fdj HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54081 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54082 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54082 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54081 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54081 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54081 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54071 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54091 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54089 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54093 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54090 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54092 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54120 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54129 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54136 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54459 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54463 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54473 - "GET /app3/image/param/plan_master_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54469 - "GET /app3/image/param/categorizer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54475 - "GET /app3/image/param/technical_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54472 - "GET /app3/image/param/process_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54470 - "GET /app3/image/param/operation_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54474 - "GET /app3/image/param/writer_agent HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54502 - "GET /app2/api/user-keys?username=param HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54503 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54514 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54515 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54525 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54536 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54536 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54539 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54536 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54536 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54546 - "POST /app3/upload_image/ HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54546 - "POST /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54546 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54547 - "GET /app3/image/defaultUser/dndn HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54553 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54558 - "GET /app3/image/defaultUser/dndn HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54570 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54570 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54571 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54570 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54570 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54573 - "GET /app3/image/param/dndn HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54572 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54579 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54572 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54572 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54574 - "GET /app3/image/param/dndn HTTP/1.1" 404 Not Found
+INFO:     162.216.149.53:59348 - "GET / HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:64040 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64041 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64054 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64059 - "GET /app3/image/param/dndn HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:64071 - "OPTIONS /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64072 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64072 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64071 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64071 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64071 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64075 - "GET /app3/image/defaultUser/dndn HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:64073 - "POST /app3/upload_image/ HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64073 - "OPTIONS /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64079 - "POST /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64079 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:64076 - "GET /app3/image/defaultUser/sfhsi HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:60943 - "GET /app3/image/admin/dndn HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60944 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60946 - "GET /app3/image/admin/sfhsi HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60960 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60960 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60960 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60961 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60960 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60960 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60945 - "GET /app3/image/admin/dndn HTTP/1.1" 200 OK
+INFO:     103.35.132.230:60965 - "GET /app3/image/admin/sfhsi HTTP/1.1" 200 OK
+INFO:     103.35.132.230:61001 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:61024 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:61024 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:61025 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:61024 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:61024 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:61031 - "GET /app3/image/admin/dndn HTTP/1.1" 200 OK
+INFO:     103.35.132.230:61030 - "GET /app3/image/admin/sfhsi HTTP/1.1" 200 OK
+INFO:     103.35.132.230:61024 - "DELETE /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.230:61024 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:61024 - "DELETE /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.230:61024 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:61024 - "DELETE /app2/api/user-keys HTTP/1.1" 500 Internal Server Error
+INFO:     103.35.132.230:61024 - "DELETE /app2/api/user-keys HTTP/1.1" 500 Internal Server Error
+INFO:     103.35.132.230:61024 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:61061 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:61071 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.230:54371 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54371 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54372 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:54371 - "GET /app1/api/agents HTTP/1.1" 200 OK

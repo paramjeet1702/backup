@@ -1,0 +1,30 @@
+venv/
+__pycache__/
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+react-dashboard/node_modules
+react-dashboard/.DS_Store
+
+# testing
+react-dashboard/coverage
+
+# production
+react-dashboard/build
+
+# misc
+react-dashboard/.DS_Store
+react-dashboard/.env.local
+react-dashboard/.env.development.local
+react-dashboard/.env.test.local
+react-dashboard/.env.production.local
+
+react-dashboard/npm-debug.log*
+react-dashboard/yarn-debug.log*
+react-dashboard/yarn-error.log*
+
+react-dashboard/package-lock.json
+react-dashboard/yarn.lock
+
+react-dashboard/commit.sh
+react-dashboard/output.log

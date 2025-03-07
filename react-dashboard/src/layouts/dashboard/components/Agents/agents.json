@@ -1,0 +1,310 @@
+[
+  {
+    "agent_name": "BrowserAgent",
+    "description": "Handles browser automation tasks.",
+    "long_description": "This agent automates web interactions...",
+    "skill": "Automation, Web Scraping",
+    "prompt": "Execute browser automation.",
+    "image": "https://via.placeholder.com/150",
+    "skills": [
+      {
+        "label": "Fallback Messages",
+        "value": 80
+      },
+      {
+        "label": "Error Reduction",
+        "value": 90
+      },
+      {
+        "label": "Emails Parsed",
+        "value": 70
+      },
+      {
+        "label": "Identifiers Extracted",
+        "value": 85
+      }
+    ],
+    "stats": [
+      {
+        "number": "100",
+        "label": "Remittance matches"
+      },
+      {
+        "number": "200",
+        "label": "Task Execution Validations"
+      },
+      {
+        "number": "300",
+        "label": "Contact Retrievals"
+      },
+      {
+        "number": "400",
+        "label": "Browser tasks"
+      }
+    ]
+  },
+  {
+    "agent_name": "Categorizer",
+    "description": "Categorizes content.",
+    "long_description": "The Categorizer Agent is an AI-powered assistant that specializes in analyzing and categorizing incoming email content based on predefined categories. It ensures accurate and consistent classification of customer queries, enabling efficient handling and routing of emails to the appropriate support channels. The agent is designed to deliver clear, concise categorizations without deviation from the specified categories.",
+    "skill": "Analyzes the provided email messages to understand the main intent or issue, Extracts relevant context from serialized message formats for accurate categorization, Assigns the email content to one of the predefined categories, Ensures the final response is delivered in lowercase format as specified, Strictly adheres to the predefined categories, avoiding the creation of any new or custom categories.",
+    "prompt": "You are a specialized email classification AI, responsible for reviewing and sorting email messages according to their primary subject matter. Your task is to evaluate each email's core message and match it to one of these designated categories: 'Claim Rejection' 'Remit Missing' 'other'. Present just the matching category in your output, with no additional commentary. Convert the final response to lowercase.",
+    "image": "/images/categorizer.png",
+    "skills": [
+      {
+        "label": "Email Content Analysis",
+        "value": 100
+      },
+      {
+        "label": "Categorization",
+        "value": 90
+      },
+      {
+        "label": "Intent Detection80",
+        "value": 80
+      },
+      {
+        "label": "Scalable Workflow Support",
+        "value": 70
+      }
+    ],
+    "stats": [
+      {
+        "number": "100",
+        "label": "Emails Analyzed"
+      },
+      {
+        "number": "200",
+        "label": "Error Reduction"
+      },
+      {
+        "number": "300",
+        "label": "Correct Intent Detected"
+      },
+      {
+        "number": "400",
+        "label": "Emails Categorized"
+      }
+    ]
+  },
+  {
+    "agent_name": "Writer",
+    "description": "Generates professional email responses using data from multi-agent workflows.",
+    "long_description": "The Writer Agent is an intelligent AI-powered email drafting assistant designed to seamlessly integrate outputs from multiple agents, including the Browser Agent and other system components. It is responsible for generating accurate, context-driven email responses to customers and payers based on remittance details and payer contact information. The Writer Agent adapts its tone, style, and content according to the nature of the email, ensuring that all correspondence aligns with business workflows and maintains a professional standard. It excels in cases where remittance data is located, missing, or requires further clarification, streamlining the communication process by minimizing manual effort.",
+    "skill": "Generates well-structured and professional email responses based on outputs from other agents, such as matching remittance details or retrieving payer contacts, Dynamically adjusts its behavior based on whether remit data was found or not, ensuring that the appropriate recipient (customer or payer) is addressed, Requests missing information from customers in cases where remit data is incomplete or not found by other agents, Ensures that the email includes only validated and relevant information, such as a single EMF File Name or payer contact details, to maintain accuracy, Drafts concise and actionable emails that are easy to understand, reducing potential back-and-forth communications.",
+    "prompt": "You are an AI response specialist focused on composing email messages using input from other AI agents. Your responsibilities include: Payment Data System: When browser_agent identifies matching payment information, capture and incorporate the EMF File Name into the message. If no matches exist, move to step 2. Support Portal: In cases where payment records aren't found, utilize payer contact information to compose a message requesting the missing payment documentation. Your writing must be precise, formal, and efficient, ensuring the message reflects the information and conclusions from other agents. Always verify and include only pertinent details as per guidelines in your response .",
+    "image": "/images/writer.png",
+    "skills": [
+      {
+        "label": "Contextual Email Drafting",
+        "value": 100
+      },
+      {
+        "label": "Workflow Adaptation",
+        "value": 90
+      },
+      {
+        "label": "Clear and Concise Communication",
+        "value": 80
+      },
+      {
+        "label": "Data Validation",
+        "value": 70
+      }
+    ],
+    "stats": [
+      {
+        "number": "100",
+        "label": "Missing Information Requests"
+      },
+      {
+        "number": "200",
+        "label": "Accurate Payer Inquiries"
+      },
+      {
+        "number": "300",
+        "label": "Context-Aware Responses"
+      },
+      {
+        "number": "400",
+        "label": "Emails Sent"
+      }
+    ]
+  },
+  {
+    "agent_name": "Gatekeeper",
+    "description": "Validates customer emails and sends acknowledgment with ticket details.",
+    "long_description": "The Gatekeeper Agent is designed to automate information extraction and ticket creation for email-based customer service requests. It efficiently identifies required fields in user-provided messages, validates the completeness of the data, and generates appropriate responses based on missing or complete information. The agent handles both acknowledgment of complete requests and notifications for incomplete submissions, ensuring smooth ticket management and prompt customer support.",
+    "skill": "Identifies missing fields and validates the completeness of the request, Generates a polite and professional acknowledgment template for complete requests, including a unique ticket number, Creates a template requesting missing or invalid information if the request is incomplete, Logs errors for better traceability and debugging, Generates a unique ticket number for complete requests using a hash of the extracted values, Ensures proper tracking of user requests through consistent formatting of ticket numbers.",
+    "prompt": "You are an information extraction assistant. Extract the following fields from the user's message: - Submitter ID - CPID - Check Number - Check Amount Return the results in a JSON format with these keys: { \"found_fields\": [\"list of fields found\"], \"missing_fields\": [\"list of fields missing\"], \"extracted_values\": {\"field\": \"value\"}, \"is_complete\": boolean } Ensure the output is clean and properly formatted. If the request is incomplete, clearly list the missing fields. Otherwise, confirm completeness by setting \"is_complete\" to true.",
+    "image": "/images/gatekeeper.png",
+    "skills": [
+      {
+        "label": "Information Extraction",
+        "value": 100
+      },
+      {
+        "label": "Response Generation",
+        "value": 90
+      },
+      {
+        "label": "Ticket Management",
+        "value": 80
+      },
+      {
+        "label": "Error Handling",
+        "value": 70
+      }
+    ],
+    "stats": [
+      {
+        "number": "100",
+        "label": "Tasks Completed"
+      },
+      {
+        "number": "200",
+        "label": "Tickets Closed"
+      },
+      {
+        "number": "300",
+        "label": "Key Info Extracted"
+      },
+      {
+        "number": "400",
+        "label": "Tickets Created"
+      }
+    ]
+  },
+  {
+    "agent_name": "Technical",
+    "description": "Extracts key identifiers from email content or indicates if details are missing.",
+    "long_description": "The Technical Agent is a highly skilled AI assistant specializing in Natural Language Processing (NLP) and Named Entity Recognition (NER). Its primary task is to analyze email content and accurately extract essential identifiers such as Submitter ID, CPID, NPI ID, and Tax ID. The agent ensures that all relevant details are extracted efficiently and provides a concise response, including a fallback message if key information is missing.",
+    "skill": "Extracts structured data from unstructured email content by identifying key fields, Accurately extracts specific identifiers such as Submitter ID, CPID, NPI ID, and Tax ID from email bodies, Processes multiple email messages in real-time with high accuracy, Provides clear fallback responses like \"Key details not found\" if any required information is missing, ensuring consistent output.",
+    "prompt": "You are an advanced AI data extraction specialist focused on identifying structured information from emails. Your task is to scan email content and locate the following identifiers: Submitter ID, CPID, NPI ID, and Tax ID. When these key identifiers cannot be found in the content, respond with 'Key details not found' and continue. In your response, include only these specific identification numbers as found in the email content.",
+    "image": "/images/technical.png",
+    "skills": [
+      {
+        "label": "Email Parsing and Analysis",
+        "value": 100
+      },
+      {
+        "label": "Identifier Extraction",
+        "value": 90
+      },
+      {
+        "label": "NLP and NER Expertise",
+        "value": 80
+      },
+      {
+        "label": "Real-Time Processing",
+        "value": 70
+      }
+    ],
+    "stats": [
+      {
+        "number": "100",
+        "label": "Fallback Messages"
+      },
+      {
+        "number": "200",
+        "label": "Error Reduction"
+      },
+      {
+        "number": "300",
+        "label": "Emails Parsed"
+      },
+      {
+        "number": "400",
+        "label": "Identifiers Extracted"
+      }
+    ]
+  },
+  {
+    "agent_name": "Plan Master",
+    "description": "Creates step-by-step workflows for remit searches and payer contact retrieval.",
+    "long_description": "The Plan Master Agent is an AI assistant specializing in web automation task planning for healthcare workflow issues. Its primary responsibility is to analyze user-provided tasks, break them down into step-by-step instructions, and delegate simple subtasks to a helper agent for execution. This agent is specifically designed for remittance tracking, payer guide navigation, and locating relevant data using web tools. The Plan Master Agent has been instrumental in optimizing healthcare support workflows, reducing manual errors, and improving task completion efficiency by automating repetitive steps.",
+    "skill": "Decomposes complex user requests into a sequence of simple, executable steps, Plans detailed steps for interacting with web applications, Delegates subtasks to a stateless helper agent, Ensures step completion by incorporating verification questions after each step, Ensures that critical data points (Submitter ID, CPID, Check Number, Check Amount) are present before initiating the workflow, Reduces unnecessary steps by directly using known URLs and asking relevant questions to the helper to gather information efficiently, Identifies missing inputs and suggests actionable next steps to the customer.",
+    "prompt": "Open Remittance Data Viewer at http://127.0.0.1:7000/. Enter CPID, Submitter ID, Check Number, and Check Amount in the respective fields. Click Search. On the Remittance Search Results page, locate a row that exactly matches the entered details. If a matching row is found, extract only the EMF File Name from that row. If no matching row is found, proceed to Connect Center at http://127.0.0.1:7000/connect_center. In Payer Guide, enter ECAR name as 'EDI' and click Submit. On the Payer Contact page, find and note the payer's email from the table.",
+    "image": "/images/planmaster.png",
+    "skills": [
+      {
+        "label": "Task Planning & Breakdown",
+        "value": 100
+      },
+      {
+        "label": "Information Validation",
+        "value": 90
+      },
+      {
+        "label": "Web Automation Workflow Design",
+        "value": 80
+      },
+      {
+        "label": "Verification-Driven Workflow Execution",
+        "value": 70
+      }
+    ],
+    "stats": [
+      {
+        "number": "100",
+        "label": "Missing information cases"
+      },
+      {
+        "number": "200",
+        "label": "Information Validated"
+      },
+      {
+        "number": "300",
+        "label": "Automation plans"
+      },
+      {
+        "number": "400",
+        "label": "Successful outcomes"
+      }
+    ]
+  },
+  {
+    "agent_name": "Evaluator",
+    "description": "Evaluates responses and updates based on user feedback.",
+    "long_description": "The Evaluator Agent plays a vital role in maintaining workflow quality by acting as a checkpoint after human feedback is collected. Its primary responsibility is to assess whether modifications are required to previously generated plans and, if so, return the revised steps in a structured format. If human feedback indicates no changes are necessary, the agent repeats the prior steps. Additionally, it identifies any missing information crucial for completing the task. The agent ensures consistency, prevents redundant content generation, and enforces strict formatting rules, making it a critical component in workflows.",
+    "skill": "Analyzes feedback to determine whether changes are required or tasks can proceed as-is, Produces clear, concise, and strictly formatted output based on predefined rules, Ensures that all required fields are present in the state before processing, preventing workflow errors, Works in tandem with the Plan Master Agent and other downstream agents by providing validated responses or identifying missing information, Implements robust error handling and logs token usage to monitor agent performance effectively and efficiently, provides a structured and concise output, adhering strictly to the formatting guidelines.",
+    "prompt": "You are a review assistant that MUST NOT create or suggest any email-related content or formats. 1. When user_feedback signals approval or acceptance: - Copy and provide the previous assistant's (Plan Master) response without any changes 2. When user_feedback indicates need for changes: - Present ONLY the adjusted steps - Structure as a numbered sequence. 3. When required details are not provided: - Begin with ONLY the statement 'Following information is missing:' - Enumerate the absent elements - Conclude with 'These details are required to proceed' - NO extra formatting or text permitted.",
+    "image": "/images/evaluator.png",
+    "skills": [
+      {
+        "label": "Evaluation of Human Feedback",
+        "value": 100
+      },
+      {
+        "label": "Data Integrity Checks",
+        "value": 90
+      },
+      {
+        "label": "Workflow Collaboration",
+        "value": 80
+      },
+      {
+        "label": "Response Generation",
+        "value": 70
+      }
+    ],
+    "stats": [
+      {
+        "number": "100",
+        "label": "Missing information cases"
+      },
+      {
+        "number": "200",
+        "label": "Reviewed task responses"
+      },
+      {
+        "number": "300",
+        "label": "Evaluation requests"
+      },
+      {
+        "number": "400",
+        "label": "Interactions with Plan Master"
+      }
+    ]
+  }
+]
