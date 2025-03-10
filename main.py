@@ -3,6 +3,7 @@ from server import app as app1
 from users import app as app2
 from img_upload import app as app3
 from admin import app as app4
+from comcast_db import app as app5
 
 app = FastAPI()
 
@@ -11,6 +12,7 @@ app.mount("/app1", app1)
 app.mount("/app2", app2)
 app.mount("/app3", app3)
 app.mount("/app4", app4)
+app.mount("/app5", app5)
 
 # if __name__ == "__main__":
 #     import uvicorn

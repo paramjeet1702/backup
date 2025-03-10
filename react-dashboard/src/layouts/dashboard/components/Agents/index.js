@@ -44,7 +44,7 @@ function Agents() {
   // Fetch agents from API
   const fetchAgents = () => {
     setLoading(true);
-    fetch("http://172.178.112.88:8125/app1/api/agents")
+    fetch("http://172.178.112.88:8125/app5/api/agents")
       .then((response) => response.json())
       .then((result) => {
         // Assuming API returns { data: [ { agent_name, start_timestamp, stop_timestamp }, ... ] }
@@ -86,7 +86,7 @@ function Agents() {
   };
 
   const handleAddAgent = () => {
-    fetch("http://172.178.112.88:8125/app1/api/agents", {
+    fetch("http://172.178.112.88:8125/app5/api/agents", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -103,7 +103,7 @@ function Agents() {
   };
   // Function to update agents.json directly
   const updateAgentJsonLocally = (agentName, description) => {
-    fetch("http://172.178.112.88:8125/app1/api/update-agents-json", {
+    fetch("http://172.178.112.88:8125/app5/api/update-agents-json", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -139,7 +139,7 @@ function Agents() {
   const handleConfirmDeletions = () => {
     Promise.all(
       pendingDeletions.map((agent) =>
-        fetch("http://172.178.112.88:8125/app1/api/agents", {
+        fetch("http://172.178.112.88:8125/app5/api/agents", {
           method: "DELETE",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ agent_name: agent.agent_name }),

@@ -13,8 +13,8 @@ import ComplexStatisticsCard from "examples/Cards/StatisticsCards/ComplexStatist
 import reportsLineChartData from "layouts/dashboard/data/reportsLineChartData";
 // Dashboard components
 import Agents from "layouts/dashboard/components/Agents";
-// Import the new bar chart component
-import MaxSRBarChart from "layouts/dashboard/MaxSRBarChart";
+// Import the new Dual-Axis Chart component (replace MaxSRBarChart)
+import DualAxisChart from "layouts/dashboard/DualAxisChart";
 
 import { purple, red } from '@mui/material/colors';
 
@@ -44,7 +44,7 @@ function Dashboard() {
       .catch((error) => console.error("Error fetching emails data:", error));
 
     // --- Fetch Agents Data from API (for active agents count) ---
-    fetch("http://172.178.112.88:8125/app1/api/agents")
+    fetch("http://172.178.112.88:8125/app5/api/agents")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Error fetching agents data");
@@ -113,14 +113,12 @@ function Dashboard() {
           </Grid>
         </Grid>
 
-        {/* Row 2 - Horizontal Bar Graph */}
-        <MDBox mt={0}>
-          <Grid container spacing={3}>
-            <Grid item xs={11}>
-              <MaxSRBarChart />
-            </Grid>
+        {/* Row 2 - Dual-Axis Chart */}
+        <Grid container spacing={3} mt={3}>
+          <Grid item xs={11}>
+            <DualAxisChart />
           </Grid>
-        </MDBox>
+        </Grid>
 
         {/* Row 3 - Line Charts (Accuracy & Completed Tasks) */}
         <MDBox mt={5}>

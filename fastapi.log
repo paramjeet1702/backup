@@ -1198,3 +1198,2326 @@ INFO:     103.35.132.230:54371 - "POST /app2/signin HTTP/1.1" 200 OK
 INFO:     103.35.132.230:54371 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
 INFO:     103.35.132.230:54372 - "GET /app1/api/agents HTTP/1.1" 200 OK
 INFO:     103.35.132.230:54371 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59371 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59372 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59372 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59418 - "OPTIONS /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59419 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59419 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59418 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59419 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59422 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59422 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59422 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59430 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59428 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59428 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.230:59430 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.230:50239 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     35.203.211.243:59578 - "GET / HTTP/1.1" 404 Not Found
+INFO:     162.216.149.153:61804 - "GET / HTTP/1.1" 404 Not Found
+INFO:     162.216.150.23:62144 - "GET / HTTP/1.1" 404 Not Found
+INFO:     35.203.210.16:62790 - "GET / HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:27919 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:16946 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:16946 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:1527 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:16946 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:31093 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:11428 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:30693 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:19967 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:19967 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:24828 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:2511 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:24828 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:24828 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     162.216.150.115:58196 - "GET / HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:17717 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:17717 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:17717 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:2319 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:23458 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     35.203.211.179:64612 - "GET / HTTP/1.1" 404 Not Found
+INFO:     35.203.211.210:57566 - "GET / HTTP/1.1" 404 Not Found
+INFO:     35.203.210.167:64134 - "GET / HTTP/1.1" 404 Not Found
+INFO:     162.216.150.134:62632 - "GET / HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:29532 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:11056 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:1059 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:10402 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:21924 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:31936 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:31936 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:31936 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:2399 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7315 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7315 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:2399 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:15350 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:15350 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:14581 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:5343 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:5343 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:24800 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:21760 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:24800 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:33136 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:33136 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     106.222.222.123:5825 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:33136 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:33136 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.227:55729 - "OPTIONS /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:55730 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:55730 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:55733 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:55730 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:55739 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.227:55754 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58778 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:55754 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:55755 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58797 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:55755 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58798 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58802 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58802 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58803 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58802 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58805 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58805 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58828 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58805 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58878 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58878 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58879 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58878 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63378 - "POST /app4/admin-signin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63378 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63379 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63378 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63409 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.227:63417 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63418 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63420 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63448 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63449 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63449 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58107 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58108 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58110 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58120 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.227:58120 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58120 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58120 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58123 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58121 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58121 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58121 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.227:58121 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58123 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58142 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58144 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58147 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58148 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58147 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58148 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58144 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58164 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58165 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58165 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:55559 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:55560 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:55560 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61609 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.227:61609 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61610 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61609 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61611 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.227:61611 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:53988 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61611 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:59370 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.227:59383 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:59382 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:59382 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52010 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52011 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52012 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52017 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52023 - "GET /app1/api/agents/max-sr HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [337051]
+INFO:     Started server process [442949]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [442949]
+INFO:     Started server process [443006]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443006]
+INFO:     Started server process [443136]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443136]
+INFO:     Started server process [443149]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:52671 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52671 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52671 - "GET /app5/agents HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443149]
+INFO:     Started server process [443251]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:51159 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51159 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51159 - "GET /app5/agents HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 460, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2461, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 962, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 35, in read_agents
+    return get_agent_logs()
+           ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 9, in get_agent_logs
+    cursor.execute("SELECT id, agent_name, duration FROM agent_logs;")
+sqlite3.OperationalError: no such table: agent_logs
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443251]
+INFO:     Started server process [443289]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:51175 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51175 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51175 - "GET /app5/agents HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443289]
+INFO:     Started server process [443329]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443329]
+INFO:     Started server process [443338]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:51198 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51198 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51198 - "GET /app5/agents HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443338]
+INFO:     Started server process [443373]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:51204 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51204 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51204 - "GET /app5/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51204 - "GET /app5/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51205 - "GET /app1/api/agents HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443373]
+INFO:     Started server process [443768]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:56836 - "GET /app5/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56837 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56838 - "GET /app1/api/agents HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443768]
+INFO:     Started server process [443889]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443889]
+INFO:     Started server process [443902]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443902]
+INFO:     Started server process [443909]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443909]
+INFO:     Started server process [443918]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443918]
+INFO:     Started server process [443919]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443919]
+Process SpawnProcess-37:
+Traceback (most recent call last):
+  File "/home/dstadminuser/miniconda3/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/home/dstadminuser/miniconda3/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/miniconda3/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/miniconda3/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/miniconda3/lib/python3.12/asyncio/base_events.py", line 686, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/miniconda3/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/dstadminuser/dashboard/main.py", line 6, in <module>
+    from comcast_db import app as app5
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 51
+    reutrn rows
+           ^^^^
+SyntaxError: invalid syntax
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Started server process [443951]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443951]
+INFO:     Started server process [443987]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443987]
+INFO:     Started server process [443992]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:56884 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56884 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56884 - "GET /app5api/agents HTTP/1.1" 404 Not Found
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [443992]
+INFO:     Started server process [444007]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:56894 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56894 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56894 - "GET /app5/api/agents HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 460, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2461, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 962, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 55, in get_agents
+    return get_agent_names()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 47, in get_agent_names
+    cursor.execute("SELECT agent_name agent_logs;")
+sqlite3.OperationalError: no such column: agent_name
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [444007]
+INFO:     Started server process [444029]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [444029]
+INFO:     Started server process [444044]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:56904 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56904 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56904 - "GET /app5/agents HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 460, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2461, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 962, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 55, in get_agents
+    return get_agent_names()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 47, in get_agent_names
+    cursor.execute("SELECT agent_name agent_logs;")
+sqlite3.OperationalError: no such column: agent_name
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [444044]
+INFO:     Started server process [444068]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:56911 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56911 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56911 - "GET /app5/agents HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [444068]
+INFO:     Started server process [444132]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:51479 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51479 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51479 - "GET /app5/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51478 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51478 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     103.35.132.227:51533 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51532 - "GET /app1/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51532 - "GET /app1/openapi.json HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [444132]
+INFO:     Started server process [444309]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [444309]
+INFO:     Started server process [444351]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [444351]
+INFO:     Started server process [444493]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:52208 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52208 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52207 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52236 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51803 - "GET /app5/agents HTTP/1.1" 404 Not Found
+INFO:     103.35.132.227:51806 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51805 - "GET /app1/api/agents HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [444493]
+INFO:     Started server process [444645]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [444645]
+INFO:     Started server process [444654]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:root:Unhandled Exception: too many values to unpack (expected 3)
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:51827 - "GET /app5/api/grouped_agents HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2461, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 962, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 120, in get_agents
+    for id, agent_name, duration in rows:
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 3)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 460, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 182, in __call__
+    await response(scope, receive, send)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'HTTPException' object is not callable
+ERROR:root:Unhandled Exception: too many values to unpack (expected 3)
+INFO:     103.35.132.227:51831 - "GET /app5/api/grouped_agents HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2461, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 962, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 120, in get_agents
+    for id, agent_name, duration in rows:
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 3)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 460, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 182, in __call__
+    await response(scope, receive, send)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'HTTPException' object is not callable
+INFO:     103.35.132.227:51833 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51834 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51836 - "GET /app1/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51836 - "GET /app1/openapi.json HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [444654]
+INFO:     Started server process [444705]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:51839 - "GET /app1/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51839 - "GET /app1/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51838 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51838 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+ERROR:root:Unhandled Exception: too many values to unpack (expected 3)
+INFO:     103.35.132.227:51845 - "GET /app5/api/grouped_agents HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2461, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 962, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 120, in get_agents
+    for id, agent_name, duration in rows:
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 3)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 460, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 182, in __call__
+    await response(scope, receive, send)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'HTTPException' object is not callable
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [444705]
+INFO:     Started server process [444752]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:51858 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51860 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51861 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51866 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51871 - "GET /app5/api/agents/max-sr HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51888 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51888 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51887 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61256 - "GET /app5/grouped_agents HTTP/1.1" 404 Not Found
+INFO:     103.35.132.227:61257 - "GET /app1/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61261 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61272 - "GET /app5/grouped_agents HTTP/1.1" 404 Not Found
+INFO:     103.35.132.227:61273 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61273 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61274 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61274 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61280 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61274 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61309 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61309 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61317 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61318 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61319 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61323 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61329 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61333 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61363 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61367 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:50623 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:50622 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:50622 - "GET /app5/api/agents HTTP/1.1" 200 OK
+ERROR:root:Unhandled Exception: unsupported operand type(s) for +=: 'float' and 'NoneType'
+INFO:     103.35.132.227:50627 - "GET /app5/api/grouped_agents HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2461, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 962, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 127, in get_agents
+    agent_data[agent_name]["total_duration"] += duration
+TypeError: unsupported operand type(s) for +=: 'float' and 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 460, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 182, in __call__
+    await response(scope, receive, send)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'HTTPException' object is not callable
+INFO:     103.35.132.227:50641 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:50642 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:50642 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52429 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52439 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:14663 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:9320 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:23250 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     106.222.222.123:23250 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:9320 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:9320 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:26126 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52214 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:30234 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     106.222.222.123:30234 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:5971 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:30234 - "GET /app5/api/agents HTTP/1.1" 200 OK
+ERROR:root:Unhandled Exception: unsupported operand type(s) for +=: 'float' and 'NoneType'
+INFO:     103.35.132.227:52264 - "GET /app5/api/grouped_agents HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2461, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 962, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 127, in get_agents
+    agent_data[agent_name]["total_duration"] += duration
+TypeError: unsupported operand type(s) for +=: 'float' and 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 460, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 182, in __call__
+    await response(scope, receive, send)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'HTTPException' object is not callable
+INFO:     103.35.132.227:52265 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52265 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52265 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52266 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52268 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52273 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52274 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52275 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52275 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52273 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52274 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52301 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:11875 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:52308 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:14886 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58611 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:3947 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58614 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:11044 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58614 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:11044 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58623 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:3238 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58623 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:3238 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58626 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:6449 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58626 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:26537 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58633 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:15693 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58679 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:28343 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58683 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:17528 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58695 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:22322 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58695 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:22322 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58695 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:22322 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58698 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58697 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7522 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:28964 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58699 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7522 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58699 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7522 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58702 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:23347 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58702 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:23347 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:23347 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58707 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49689 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:28185 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49694 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49695 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:10862 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:22128 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49698 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49699 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:5601 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:29972 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49697 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49707 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7922 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:15452 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49713 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49712 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:14613 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:3119 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49747 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:21903 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49761 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49760 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49762 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49767 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:8888 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49793 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49794 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:19242 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:16153 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49792 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:9867 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49792 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:9867 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49792 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:9867 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49803 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:22806 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49814 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:22806 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56888 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:10783 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56897 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:23279 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56905 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56906 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56906 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56907 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:10346 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56936 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56937 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:21776 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:21722 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56939 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56938 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:21776 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:21722 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56941 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:22443 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:56950 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:10420 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63661 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7926 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63668 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7135 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63670 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:25536 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63672 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:2232 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63682 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:1691 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63685 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:18136 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63685 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:18136 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63689 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:32002 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:63690 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:15046 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62430 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:22273 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62435 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:10180 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62445 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:23441 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62447 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:30961 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62449 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7158 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62449 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7158 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62452 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:14605 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62454 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:22840 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62458 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:23212 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62458 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:23212 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62464 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:2285 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62466 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:28547 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62475 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:3427 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62480 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:5576 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62574 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7584 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62574 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:7584 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62580 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:2769 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62590 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:11781 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62590 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:11781 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58285 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:17555 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58289 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:26303 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58296 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:32895 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58300 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:32895 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58300 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:32895 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58300 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:32895 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:13518 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:58312 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:49246 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:18121 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61885 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:19242 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61933 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61933 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61933 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61934 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:61971 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     106.222.222.123:25167 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [444752]
+INFO:     Started server process [451584]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [451584]
+INFO:     Started server process [451623]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:60630 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:60630 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+ERROR:root:Error querying agents: no such column: id
+INFO:     103.35.132.227:60630 - "GET /app5/api/grouped_agents HTTP/1.1" 500 Internal Server Error
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [451623]
+INFO:     Started server process [451657]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:60639 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:60639 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:60639 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [451657]
+INFO:     Started server process [451677]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:60650 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:60650 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+ERROR:root:Error querying agents: no such column: id
+INFO:     103.35.132.227:60650 - "GET /app5/api/grouped_agents HTTP/1.1" 500 Internal Server Error
+ERROR:root:Error querying agents: no such column: id
+INFO:     103.35.132.227:60681 - "GET /app5/api/grouped_agents HTTP/1.1" 500 Internal Server Error
+ERROR:root:Error querying agents: no such column: id
+INFO:     103.35.132.227:60682 - "GET /app5/api/agents HTTP/1.1" 500 Internal Server Error
+ERROR:root:Error querying agents: no such column: id
+INFO:     103.35.132.227:60681 - "GET /app5/api/agents HTTP/1.1" 500 Internal Server Error
+INFO:     162.216.149.175:58634 - "GET / HTTP/1.1" 404 Not Found
+ERROR:root:Error querying agents: no such column: id
+INFO:     103.35.132.227:60571 - "GET /app5/api/grouped_agents HTTP/1.1" 500 Internal Server Error
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [451677]
+INFO:     Started server process [454289]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:60634 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:60634 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+ERROR:root:Unhandled Exception: unsupported operand type(s) for +=: 'int' and 'NoneType'
+INFO:     103.35.132.227:60634 - "GET /app5/api/grouped_agents HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2461, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 962, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 134, in get_agents
+    agent_data[agent_name]["total_duration"] += duration
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 460, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 182, in __call__
+    await response(scope, receive, send)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'HTTPException' object is not callable
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [454289]
+INFO:     Started server process [454327]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:60653 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:60653 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [454327]
+INFO:     Started server process [454633]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:60673 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:60673 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+ERROR:root:Unhandled Exception: unsupported operand type(s) for +=: 'int' and 'NoneType'
+INFO:     103.35.132.227:60673 - "GET /app5/api/grouped_agents HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2461, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 962, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 134, in get_agents
+    agent_data[agent_name]["total_duration"] += duration
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 460, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 182, in __call__
+    await response(scope, receive, send)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'HTTPException' object is not callable
+INFO:     103.35.132.227:54376 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54376 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+ERROR:root:Unhandled Exception: unsupported operand type(s) for +=: 'int' and 'NoneType'
+INFO:     103.35.132.227:54376 - "GET /app5/api/grouped_agents HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2461, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 962, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 134, in get_agents
+    agent_data[agent_name]["total_duration"] += duration
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 460, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 182, in __call__
+    await response(scope, receive, send)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'HTTPException' object is not callable
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [454633]
+INFO:     Started server process [455498]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:54389 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54389 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+ERROR:root:Unhandled Exception: unsupported operand type(s) for +=: 'int' and 'NoneType'
+INFO:     103.35.132.227:54389 - "GET /app5/api/grouped_agents HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2461, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 962, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 134, in get_agents
+    agent_data[agent_name]["total_duration"] += duration
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 460, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 182, in __call__
+    await response(scope, receive, send)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'HTTPException' object is not callable
+INFO:     103.35.132.227:54388 - "GET /app5/api/agents HTTP/1.1" 200 OK
+ERROR:root:Unhandled Exception: unsupported operand type(s) for +=: 'int' and 'NoneType'
+INFO:     103.35.132.227:54390 - "GET /app5/api/grouped_agents HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2461, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 962, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 134, in get_agents
+    agent_data[agent_name]["total_duration"] += duration
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 460, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 182, in __call__
+    await response(scope, receive, send)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'HTTPException' object is not callable
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [455498]
+INFO:     Started server process [455636]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:54440 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54440 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+ERROR:root:Unhandled Exception: unsupported operand type(s) for +=: 'int' and 'NoneType'
+INFO:     103.35.132.227:54439 - "GET /app5/api/grouped_agents HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2461, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 962, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/comcast_db.py", line 136, in get_grouped_agents
+    agent_data[agent_name]["total_duration"] += duration
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/routing.py", line 460, in handle
+    await self.app(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/dstadminuser/dashboard/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 182, in __call__
+    await response(scope, receive, send)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'HTTPException' object is not callable
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [455636]
+INFO:     Started server process [455699]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [455699]
+INFO:     Started server process [455707]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:54454 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54454 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54454 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [455707]
+INFO:     Started server process [455751]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:54461 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54461 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54461 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [455751]
+INFO:     Started server process [455915]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:51949 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:50493 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:50503 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:50503 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:50501 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:64735 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'comcast_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [455915]
+INFO:     Started server process [457489]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Database opened successfully.
+Users table created successfully.
+Agents table created successfully.
+INFO:     103.35.132.227:51808 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51815 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51814 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51816 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51826 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51827 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51827 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62689 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62690 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62690 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62708 - "GET /app5/docs HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62708 - "GET /app5/openapi.json HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62708 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62719 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 404 Not Found
+INFO:     103.35.132.227:62774 - "POST /app3/upload_image/ HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62774 - "OPTIONS /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62775 - "POST /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62775 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:62776 - "GET /app3/image/admin/Customer%20Support%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54910 - "POST /app3/upload_image/ HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54910 - "POST /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54910 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54911 - "GET /app3/image/admin/Bill%20Helper%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54919 - "POST /app3/upload_image/ HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54919 - "POST /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54919 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54920 - "GET /app3/image/admin/Validation%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54926 - "POST /app3/upload_image/ HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54926 - "POST /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54926 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54927 - "GET /app3/image/admin/Triaging%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54932 - "POST /app3/upload_image/ HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54932 - "POST /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54932 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54933 - "GET /app3/image/admin/Customer%20Details%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54940 - "POST /app3/upload_image/ HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54940 - "POST /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54940 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54942 - "GET /app3/image/admin/Billing%20Health%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54949 - "POST /app3/upload_image/ HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54949 - "POST /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54949 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54950 - "GET /app3/image/admin/Researcher%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54953 - "POST /app3/upload_image/ HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54953 - "POST /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54953 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54958 - "GET /app3/image/admin/Writer%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54965 - "POST /app3/upload_image/ HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54965 - "POST /app2/api/user-keys HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54965 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54967 - "GET /app3/image/admin/Bill%20Update%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54966 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54976 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:54966 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51311 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51317 - "GET /app3/image/admin/Customer%20Support%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51313 - "GET /app3/image/admin/Bill%20Helper%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51314 - "GET /app3/image/admin/Validation%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51312 - "GET /app3/image/admin/Triaging%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51313 - "GET /app3/image/admin/Customer%20Details%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51317 - "GET /app3/image/admin/Billing%20Health%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51314 - "GET /app3/image/admin/Writer%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51312 - "GET /app3/image/admin/Researcher%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51316 - "GET /app3/image/admin/Bill%20Update%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51319 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51320 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51322 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51330 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51315 - "GET /app3/image/admin/Customer%20Support%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51332 - "GET /app3/image/admin/Bill%20Helper%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51334 - "GET /app3/image/admin/Validation%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51331 - "GET /app3/image/admin/Triaging%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51335 - "GET /app3/image/admin/Customer%20Details%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51332 - "GET /app3/image/admin/Billing%20Health%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51334 - "GET /app3/image/admin/Researcher%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51331 - "GET /app3/image/admin/Writer%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51335 - "GET /app3/image/admin/Bill%20Update%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51339 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51341 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51339 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51338 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51333 - "GET /app3/image/admin/Customer%20Support%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51344 - "GET /app3/image/admin/Bill%20Helper%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51346 - "GET /app3/image/admin/Validation%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51333 - "GET /app3/image/admin/Triaging%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51344 - "GET /app3/image/admin/Customer%20Details%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51346 - "GET /app3/image/admin/Billing%20Health%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51333 - "GET /app3/image/admin/Researcher%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51344 - "GET /app3/image/admin/Writer%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51346 - "GET /app3/image/admin/Bill%20Update%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51358 - "OPTIONS /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51359 - "POST /app2/signin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51359 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51361 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51359 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51359 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51343 - "GET /app3/image/admin/Customer%20Support%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51342 - "GET /app3/image/admin/Validation%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51345 - "GET /app3/image/admin/Bill%20Helper%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51366 - "GET /app3/image/admin/Triaging%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51364 - "GET /app3/image/admin/Customer%20Details%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51343 - "GET /app3/image/admin/Billing%20Health%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51345 - "GET /app3/image/admin/Researcher%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51366 - "GET /app3/image/admin/Writer%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51364 - "GET /app3/image/admin/Bill%20Update%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51369 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51368 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51370 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51392 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51393 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51393 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51655 - "GET /app2/api/user-keys?username=admin HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51660 - "GET /app3/image/admin/Customer%20Support%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51656 - "GET /app3/image/admin/Bill%20Helper%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51659 - "GET /app3/image/admin/Validation%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51660 - "GET /app3/image/admin/Triaging%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51656 - "GET /app3/image/admin/Customer%20Details%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51659 - "GET /app3/image/admin/Billing%20Health%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51660 - "GET /app3/image/admin/Researcher%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51656 - "GET /app3/image/admin/Writer%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51659 - "GET /app3/image/admin/Bill%20Update%20Agent HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51695 - "GET /app5/api/grouped_agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51696 - "GET /app5/api/agents HTTP/1.1" 200 OK
+INFO:     103.35.132.227:51696 - "GET /app5/api/agents HTTP/1.1" 200 OK
