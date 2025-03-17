@@ -1,18 +1,3 @@
-/**
-=========================================================
-* Material Dashboard 2 React - v2.2.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 import { useState, useEffect } from "react";
 
 // react-router components
@@ -138,17 +123,28 @@ function DashboardNavbar({ absolute, light, isMini }) {
             <MDBox color={light ? "white" : "inherit"}>
               <Link to="/authentication/sign-in/basic">
               </Link>
-              <IconButton
-                size="small"
-                disableRipple
-                color="inherit"
-                sx={navbarMobileMenu}
-                onClick={handleMiniSidenav}
-              >
-                <Icon sx={iconsStyle} fontSize="medium">
-                  {miniSidenav ? "menu_open" : "menu"}
-                </Icon>
-              </IconButton>
+<IconButton
+  size="small"
+  disableRipple
+  color="inherit"
+  sx={{
+    ...navbarMobileMenu,
+    display: "inline-block", // Force display
+    zIndex: 10 // Ensure it's on top
+  }}
+  onClick={handleMiniSidenav}
+>
+  <Icon 
+    sx={{
+      ...iconsStyle,
+      color: darkMode ? "white" : "inherit" // Ensure proper contrast
+    }} 
+    fontSize="medium"
+  >
+    {miniSidenav ? "menu_open" : "menu"}
+  </Icon>
+</IconButton>
+
               <IconButton
                 size="small"
                 disableRipple

@@ -13,7 +13,7 @@ import ComplexStatisticsCard from "examples/Cards/StatisticsCards/ComplexStatist
 import reportsLineChartData from "layouts/dashboard/data/reportsLineChartData";
 // Dashboard components
 import Agents from "layouts/dashboard/components/Agents";
-// Import the new Dual-Axis Chart component (replace MaxSRBarChart)
+// Import the new Dual-Axis Chart component
 import DualAxisChart from "layouts/dashboard/DualAxisChart";
 
 import { purple, red } from '@mui/material/colors';
@@ -28,6 +28,9 @@ function Dashboard() {
   // State for dynamic counts
   const [emailCount, setEmailCount] = useState(0);
   const [activeAgents, setActiveAgents] = useState(0);
+
+  // Check if the user is an admin
+  const isAdmin = localStorage.getItem("isAdminLoggedIn") === "true";
 
   useEffect(() => {
     // --- Fetch Emails Count from emails.json ---
@@ -103,7 +106,6 @@ function Dashboard() {
           <Grid item xs={12} md={6} lg={3}>
             <MDBox mb={1.5}>
               <ComplexStatisticsCard
-                // color= ""
                 icon="assignmentLate"
                 title="Tasks Pending"
                 count={7}
@@ -113,12 +115,14 @@ function Dashboard() {
           </Grid>
         </Grid>
 
-        {/* Row 2 - Dual-Axis Chart */}
-        <Grid container spacing={3} mt={3}>
-          <Grid item xs={11}>
-            <DualAxisChart />
+        {/* Row 2 - Dual-Axis Chart (Admin Only) */}
+        {isAdmin && (
+          <Grid container spacing={3} mt={3}>
+            <Grid item xs={11}>
+              <DualAxisChart />
+            </Grid>
           </Grid>
-        </Grid>
+        )}
 
         {/* Row 3 - Line Charts (Accuracy & Completed Tasks) */}
         <MDBox mt={5}>
@@ -128,11 +132,7 @@ function Dashboard() {
                 <ReportsLineChart
                   color="success"
                   title="Accuracy"
-                  description={
-                    <>
-                      <strong>+15%</strong> increase in Accuracy.
-                    </>
-                  }
+                  description={<><strong>+15%</strong> increase in Accuracy.</>}
                   date="updated 4 min ago"
                   chart={sales}
                 />

@@ -30,6 +30,7 @@ import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
 import AgentDetails from "layouts/dashboard/components/Agents/AgentDetails";
 import AgentConfiguration from "layouts/AgentConfiguration";
+import Orchestration from "layouts/Orchestration";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
@@ -59,6 +60,14 @@ const routes = [
     icon: <Icon fontSize="small">assistant</Icon>,
     route: "/AgentConfiguration",
     component: <AgentConfiguration />,
+  },
+  {
+    type: "collapse",
+    name: "Orchestration",
+    key: "LangFlow",
+    icon: <Icon fontSize="small">fence</Icon>,
+    route: "/Orchestration",
+    component: <Orchestration />,
   },
   // {
   //   type: "collapse",
