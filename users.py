@@ -102,7 +102,7 @@ def signup(data: SignupData):
         user_id = cursor.lastrowid
         return {"message": "User created successfully", "userId": user_id}
     except Exception as e:
-        raise HTTPException(status_code=500, detail="Failed to sign up user")
+        raise HTTPException(status_code=500, detail=f"Failed to sign up user: {e}")
 
 # Sign In API
 @app.post("/signin")
@@ -123,6 +123,19 @@ def signin(data: SigninData):
         return {"message": "Login successful", "user": user}
     else:
         raise HTTPException(status_code=401, detail="Invalid credentials")
+
+
+@app.delete("/delete_user/{username}")
+def delete_user(username: str):
+    query = "DELETE FROM Users WHERE username = ?"
+    cursor.execute(query, (username,))
+    
+    if cursor.rowcount == 0:
+        raise HTTPException(status_code=404, detail="User not found")
+    
+    conn.commit()
+    return {"message": f"User '{username}' deleted successfully"}
+
 
 # Get all signed up users API
 @app.get("/users")

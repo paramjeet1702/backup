@@ -23,6 +23,19 @@ class RegisterRequest(BaseModel):
     username: str
     password: str
 
+
+def get_all_admins():
+    conn = sqlite3.connect('admin.db')
+    cursor = conn.cursor()
+
+    # Fetch all admin users
+    cursor.execute('SELECT username FROM admin')
+    admins = [row[0] for row in cursor.fetchall()]
+
+    conn.close()
+    return admins
+
+
 # Function to check if username and password exist in the database
 def check_credentials(username: str, password: str) -> bool:
     conn = sqlite3.connect('admin.db')
@@ -62,6 +75,26 @@ def register_admin(username: str, password: str) -> bool:
     
     return True
 
+def delete_admin(username: str) -> bool:
+    conn = sqlite3.connect('admin.db')
+    cursor = conn.cursor()
+
+    # Check if the user exists
+    cursor.execute('SELECT * FROM admin WHERE username = ?', (username,))
+    existing_user = cursor.fetchone()
+    
+    if not existing_user:
+        conn.close()
+        return False  # Username does not exist
+
+    # Delete the admin user
+    cursor.execute('DELETE FROM admin WHERE username = ?', (username,))
+    conn.commit()
+    conn.close()
+    
+    return True
+
+
 # Endpoint to verify user credentials
 @app.post("/admin-signin")
 def login(credentials: LoginRequest):
@@ -83,3 +116,20 @@ def register(credentials: RegisterRequest):
         return {"message": True}
     else:
         return {"message": False}
+
+
+@app.delete("/admin-delete")
+def delete_admin_user(username: str):
+    success = delete_admin(username)
+    
+    if success:
+        return {"message": True}
+    else:
+        return {"message": False}
+
+
+
+@app.get("/admin-list")
+def get_admins():
+    admins = get_all_admins()
+    return {"admins": admins}

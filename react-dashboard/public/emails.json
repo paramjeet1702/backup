@@ -1,114 +1,43 @@
 {
-    "1": {
-      "From": "Alex.Sandro@abc.com <Alex.Sandro@abc.com>",
-  
-      "Sent": "Tuesday, September 17, 2024 1:35 PM",
-  
-      "To": "Assurance EDI Support <assuranceedi.support@xyz.com>",
-  
-      "Subject": "Remit 1 Missing",
-  
-      "Content": [
-        "Good Afternoon Support,",
-        "",
-        "Submitter ID is 200192",
-        "",
-        "CPID is listed below.",
-        "6885",
-        "",
-        "We received a message from the provider which stated as follows:",
-        "",
-        "Our main billing NPI is 1376593442 but it looks like this payer sends files under the location NPI so I have opened the ticket with it. Can you please help with this? Do you know if this payer is having an issue",
-        "",
-        "Check Number 19208010",
-        "Check Amount $37.75",
-        "",
-        "main billing NPI is 1376593442 and Location NPI: 1225372923 | Tax ID: 390813416",
-        "",
-        "Support, we are unable to locate these remits in our system. Please locate and deliver these ERAs. If this has already been delivered, please provide the FTP filenames so our IT can follow up.",
-        "",
-        "Best regards,",
-        "Alex Sandro",
-        "",
-        "Senior Customer Service Representative",
-        "ABC",
-        "",
-        "3100 Rider Trail South",
-        "Earth City, MO 63044",
-        "alex.sandro@abc.com",
-        "abc.com"
-      ]
-    },
-  
-    "2": {
-      "From": "Alex.Sandro@abc.com <Alex.Sandro@abc.com>",
-  
-      "Sent": "Tuesday, September 17, 2024 1:35 PM",
-  
-      "To": "Assurance EDI Support <assuranceedi.support@xyz.com>",
-  
-      "Subject": "09096310 Several Missing Medico files -Account: alexs TICKET ID's-b1158o-b1158p-b1158r",
-  
-      "Content": [
-        "Good Afternoon Support,",
-        "",
-        "Submitter ID is 188736",
-        "",
-        "CPID is listed below.",
-        "7756",
-        "",
-        "We received a message from the provider which stated as follows:",
-        "",
-        "Our main billing NPI is 1532247365 but it looks like this payer sends files under the location NPI so I have opened the ticket with it. Can you please help with this? Do you know if this payer is having an issue",
-        "",
-        "Check Number 187563587",
-        "Check Amount $47.75",
-        "",
-        "main billing NPI is 1532247365 and Location NPI: 657307362 | Tax ID: 987654352",
-        "",
-        "Support, we are unable to locate these remits in our system. Please locate and deliver these ERAs. If this has already been delivered, please provide the FTP filenames so our IT can follow up.",
-        "",
-        "Best regards,",
-        "Alex Sandro",
-        "",
-        "Senior Customer Service Representative",
-        "ABC",
-        "",
-        "3100 Rider Trail South",
-        "Earth City, MO 63044",
-        "alex.sandro@abc.com",
-        "abc.com"
-      ]
-    },
-  
-    "3": {
-      "From": "Alex.Sandro@abc.com <Alex.Sandro@abc.com>",
-  
-      "Sent": "Tuesday, September 17, 2024 1:35 PM",
-  
-      "To": "Assurance EDI Support <assuranceedi.support@xyz.com>",
-  
-      "Subject": "09096310 Several Missing Medico files -Account: alexs TICKET ID's-b1158o-b1158p-b1158r",
-  
-      "Content": [
-        "Good Afternoon Support,",
-        "",
-        "Check Number 19208010",
-        "Check Amount $37.75",
-        "",
-        "Support, we are unable to locate these remits in our system. Please locate and deliver these ERAs. If this has already been delivered, please provide the FTP filenames so our IT can follow up.",
-        "",
-        "Best regards,",
-        "Alex Sandro",
-        "",
-        "Senior Customer Service Representative",
-        "ABC",
-        "",
-        "3100 Rider Trail South",
-        "Earth City, MO 63044",
-        "alex.sandro@abc.com",
-        "abc.com"
-      ]
-    }
+  "1": {
+    "From": "",
+
+    "Sent": "Tuesday, September 17, 2024 1:35 PM",
+
+    "To": "Assurance EDI Support <assuranceedi.support@xyz.com>",
+
+    "Subject": "Telecom-OH 1",
+
+    "Content": [
+      "I just got my bill and it's $15 higher than usual. I've been with you for 3 years and never changed my plan. Why am I suddenly paying more?"
+    ]
+  },
+
+  "2": {
+    "From": "",
+
+    "Sent": "Tuesday, September 17, 2024 1:35 PM",
+
+    "To": "Assurance EDI Support <assuranceedi.support@xyz.com>",
+
+    "Subject": "Telecom-OH 2",
+
+    "Content": [
+      "There must be a mistake on my bill. I always stay within my data limit, but now I'm seeing an extra $60 in charges labeled as 'data overage'. This doesn't make sense to me"
+    ]
+  },
+
+  "3": {
+    "From": "",
+
+    "Sent": "Tuesday, September 17, 2024 1:35 PM",
+
+    "To": "Assurance EDI Support <assuranceedi.support@xyz.com>",
+
+    "Subject": "Telecom-TSH",
+
+    "Content": [
+      "I am facing internet issue"
+    ]
   }
-  
+}

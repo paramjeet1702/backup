@@ -43,7 +43,7 @@ function AdminSignUp() {
 
       const result = await response.json();
       
-      if (result === true) {
+      if (result.message === true) {
         // Registration successful, navigate to admin sign-in
         navigate("/authentication/admin-sign-in");
       } else {

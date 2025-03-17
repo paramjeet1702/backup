@@ -62,8 +62,8 @@ export default function data(onAgentClick, onMailClick) {
 
   return {
     columns: [
-      { Header: "Email", accessor: "email", width: "40%", align: "left" },
-      { Header: "Mail Content", accessor: "mailContent", width: "20%", align: "center" },
+      { Header: "Message", accessor: "email", width: "40%", align: "left" },
+      { Header: "Message Content", accessor: "mailContent", width: "20%", align: "center" },
       { Header: "Agent", accessor: "agent", width: "40%", align: "center" },
     ],
     rows,

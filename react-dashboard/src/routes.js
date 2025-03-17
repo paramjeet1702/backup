@@ -45,10 +45,10 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Emails",
+    name: "Messages",
     key: "emails",
     icon: <Icon fontSize="small">email</Icon>,
-    route: "/emails",
+    route: "/messages",
     component: <Emails />,
   },
 

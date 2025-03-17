@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useLocation, NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 
@@ -51,36 +51,35 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
   // Check if admin is logged in
   const isAdmin = localStorage.getItem("isAdminLoggedIn") === "true";
 
+  // Create a ref for the textarea (admin only)
+  const textareaRef = useRef(null);
+
   useEffect(() => {
-    // When the component mounts, load the brand name from global storage first,
-    // falling back to the user-specific key if needed.
-    let storedBrandName = localStorage.getItem("customBrandName_global");
-    if (!storedBrandName) {
-      const username = localStorage.getItem("username");
-      if (username) {
-        storedBrandName = localStorage.getItem(`customBrandName_${username}`);
-      }
-    }
-    if (storedBrandName) {
-      setBrandNameState(storedBrandName);
+    // Directly use the global brand name for all users
+    const storedGlobalBrandName = localStorage.getItem("customBrandName_global");
+    if (storedGlobalBrandName) {
+      setBrandNameState(storedGlobalBrandName);
     }
   }, []);
 
-  // Handle brand name change so that the new name is stored globally (for admins)
+  // Auto-resize the textarea when the content changes (for admin)
+  useEffect(() => {
+    if (isAdmin && textareaRef.current) {
+      textareaRef.current.style.height = "auto";
+      textareaRef.current.style.height =
+        Math.min(textareaRef.current.scrollHeight, 80) + "px";
+    }
+  }, [brandNameState, isAdmin]);
+
+  // Handle brand name change (for admins only)
   const handleBrandNameChange = (event) => {
     const newBrandName = event.target.value;
     setBrandNameState(newBrandName);
     if (isAdmin) {
-      // Save globally so that normal users see the updated name
+      // Save globally for all users
       localStorage.setItem("customBrandName_global", newBrandName);
-    } else {
-      const username = localStorage.getItem("username");
-      if (username) {
-        localStorage.setItem(`customBrandName_${username}`, newBrandName);
-      }
     }
   };
-  
 
   // Render the routes for the side navigation
   const renderRoutes = routes.map(
@@ -104,7 +103,11 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
           </Link>
         ) : (
           <NavLink key={key} to={route}>
-            <SidenavCollapse name={name} icon={icon} active={key === collapseName} />
+            <SidenavCollapse
+              name={name}
+              icon={icon}
+              active={key === collapseName}
+            />
           </NavLink>
         );
       } else if (type === "title") {
@@ -178,44 +181,71 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
               />
             </NavLink>
           )}
-          {/* Editable Brand Name (only editable for admins) */}
+          
+          {/* Brand Name Container */}
           <MDBox
             width="100%"
             sx={(theme) => sidenavLogoLabel(theme, { miniSidenav })}
             display="flex"
             justifyContent="center"
+            alignItems="center"
             mt={2}
           >
             {isAdmin ? (
-              <MDTypography component="div" variant="h5" fontWeight="bold" color={textColor}>
+              // Admin editable version with auto-resize
+              <div
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
                 <textarea
+                  ref={textareaRef}
                   value={brandNameState}
                   onChange={handleBrandNameChange}
                   onInput={(e) => {
                     e.target.style.height = "auto";
-                    e.target.style.height = e.target.scrollHeight + "px";
+                    e.target.style.height =
+                      Math.min(e.target.scrollHeight, 80) + "px";
                   }}
+                  wrap="soft"
                   style={{
-                    width: "160px",
+                    width: "100%",
+                    maxHeight: "80px",
                     background: "transparent",
                     border: "none",
                     color: textColor,
                     textAlign: "center",
                     fontWeight: "bold",
-                    fontSize: "24px",
+                    fontSize: "20px",
                     resize: "none",
                     overflow: "hidden",
-                    whiteSpace: "normal",
                     lineHeight: "1.2",
-                    padding: 0,
+                    padding: "0px 5px",
                     margin: 0,
+                    fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif",
                   }}
                 />
-              </MDTypography>
+              </div>
             ) : (
-              <MDTypography variant="h5" fontWeight="bold" color={textColor}>
+              // Regular user non-editable version - using a div for more control
+              <div
+                style={{
+                  fontSize: "20px",
+                  lineHeight: "1.2",
+                  whiteSpace: "normal",
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  color: textColor,
+                  width: "100%",
+                  wordBreak: "break-word",
+                  padding: "0px 5px",
+                  fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif",
+                }}
+              >
                 {brandNameState}
-              </MDTypography>
+              </div>
             )}
           </MDBox>
         </MDBox>

@@ -61,6 +61,12 @@ export default function App() {
     } else {
       setBrandLogo(null);
     }
+
+    // Load the brand name
+    const storedGlobalBrandName = localStorage.getItem("customBrandName_global");
+    if (storedGlobalBrandName) {
+      setBrandName(storedGlobalBrandName);
+    }
   }, [transparentSidenav, darkMode, whiteSidenav, pathname, isLoggedIn]);
 
   const handleOnMouseEnter = () => {

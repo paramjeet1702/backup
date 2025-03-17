@@ -1,3 +1,4 @@
+// index.js
 import React, { useState } from "react";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
@@ -22,29 +23,45 @@ function Emails() {
   const [mailContentModalOpen, setMailContentModalOpen] = useState(false);
   const [selectedMailContent, setSelectedMailContent] = useState([]);
 
+  // Helper function that sends a POST request to the API endpoint.
+  const sendEmailApi = (emailContent) => {
+    fetch("http://172.178.112.88:8375/process_email", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        email_content: emailContent,
+        groupid: "123",
+      }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("Response:", data);
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
+  };
+
+  // When the trigger button is clicked:
+  // - Send an API call with "Hello" immediately.
+  // - After 5 seconds, send another API call with the actual mail content.
   const handleAgentClick = (mailContent) => {
     if (!chatOpen) {
       setChatOpen(true);
     }
-    const groupid = Math.random().toString(36).substring(2, 15);
-    const payload = {
-      email_content: mailContent,
-      groupid: groupid,
-    };
+    const messageText = Array.isArray(mailContent)
+      ? mailContent.join(" ")
+      : mailContent;
 
-    fetch("http://172.178.112.88:8360/process_email", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    })
-      .then((response) => {
-        if (!response.ok) {
-          console.error("Error processing email:", response.statusText);
-        }
-      })
-      .catch((error) => {
-        console.error("Error while calling API:", error);
-      });
+    // First API call with "Hello"
+    sendEmailApi("Hello");
+
+    // After 5 seconds, API call with actual mail content.
+    setTimeout(() => {
+      sendEmailApi(messageText);
+    }, 5000);
   };
 
   const handleMailClick = (content) => {
@@ -57,15 +74,23 @@ function Emails() {
     setSelectedMailContent([]);
   };
 
+  const toggleExpand = () => {
+    setExpanded(!expanded);
+  };
+
   const { columns, rows } = authorsTableData(handleAgentClick, handleMailClick);
 
   return (
     <DashboardLayout>
       <MDBox pt={-1} pb={3}>
         <Grid container spacing={2}>
-          {/* Inbox Section: hidden when Rocket Chat is in expanded mode */}
-          {!expanded && (
-            <Grid item xs={12} md={chatOpen ? 7 : 12}>
+          {/* Inbox Section - Hidden when expanded */}
+          {!(chatOpen && expanded) && (
+            <Grid
+              item
+              xs={12}
+              md={chatOpen ? 7 : 12}
+            >
               <Card
                 sx={{
                   height: "100vh",
@@ -76,6 +101,7 @@ function Emails() {
                   overflow: "hidden",
                 }}
               >
+                {/* Inbox Header with Chat Open/Close Button */}
                 <MDBox
                   sx={{
                     background: "linear-gradient(135deg, #1e88e5, #42a5f5)",
@@ -89,12 +115,27 @@ function Emails() {
                 >
                   <MDTypography variant="h6">Inbox</MDTypography>
                   <MDBox>
+                    {chatOpen && (
+                      <MDButton
+                        variant="contained"
+                        color="secondary"
+                        size="small"
+                        onClick={toggleExpand}
+                        sx={{ mr: 1 }}
+                      >
+                        Expand
+                      </MDButton>
+                    )}
                     <MDButton
                       variant="contained"
                       color="secondary"
                       size="small"
-                      onClick={() => setChatOpen(!chatOpen)}
-                      sx={{ mr: 1 }}
+                      onClick={() => {
+                        setChatOpen(!chatOpen);
+                        if (!chatOpen) {
+                          setExpanded(false);
+                        }
+                      }}
                     >
                       {chatOpen ? "Close Chat" : "Open Chat"}
                     </MDButton>
@@ -123,84 +164,47 @@ function Emails() {
 
           {/* Rocket Chat Section */}
           {chatOpen && (
-            <Grid item xs={12} md={expanded ? 12 : 5}>
+            <Grid
+              item
+              xs={12}
+              md={expanded ? 12 : 5}
+            >
               <Card
                 sx={{
                   height: "100vh",
                   borderRadius: 3,
                   boxShadow: 3,
                   position: "relative",
-                  display: "flex",
-                  flexDirection: "column",
                   overflow: "hidden",
                 }}
               >
-                {expanded ? (
-                  // In expanded mode, remove the blue header and overlay a toggle button
-                  <>
-                    <MDButton
-                      variant="contained"
-                      color="secondary"
-                      size="small"
-                      onClick={() => setExpanded(false)}
-                      sx={{
-                        position: "absolute",
-                        top: 10,
-                        right: 10,
-                        zIndex: 10,
-                      }}
-                    >
-                      Normal View
-                    </MDButton>
-                    <MDBox
-                      sx={{
-                        flexGrow: 1,
-                        p: 0,
-                        backgroundColor: "#f9f9f9",
-                        overflow: "hidden",
-                        width: "100%",
-                      }}
-                    >
-                      <RocketChatIframe key={chatKey} />
-                    </MDBox>
-                  </>
-                ) : (
-                  // Normal mode with the blue header
-                  <>
-                    <MDBox
-                      sx={{
-                        background: "linear-gradient(135deg, #1e88e5, #42a5f5)",
-                        color: "#fff",
-                        px: 3,
-                        py: 2,
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-between",
-                      }}
-                    >
-                      <MDTypography variant="h6">Rocket Chat</MDTypography>
+                {/* Add header with Normal View button in expanded mode */}
+                {expanded && (
+                  <MDBox
+                    sx={{
+                      background: "linear-gradient(135deg, #1e88e5, #42a5f5)",
+                      color: "#fff", 
+                      px: 3,
+                      py: 2,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <MDTypography variant="h6">Chat</MDTypography>
+                    <MDBox>
                       <MDButton
                         variant="contained"
                         color="secondary"
                         size="small"
-                        onClick={() => setExpanded(true)}
+                        onClick={toggleExpand}
                       >
-                        Expand
+                        Normal View
                       </MDButton>
                     </MDBox>
-                    <MDBox
-                      sx={{
-                        flexGrow: 1,
-                        p: 2,
-                        backgroundColor: "#f9f9f9",
-                        overflow: "hidden",
-                        width: "100%",
-                      }}
-                    >
-                      <RocketChatIframe key={chatKey} />
-                    </MDBox>
-                  </>
+                  </MDBox>
                 )}
+                <RocketChatIframe key={chatKey} />
               </Card>
             </Grid>
           )}
@@ -214,11 +218,15 @@ function Emails() {
         fullWidth
         maxWidth="md"
       >
-        <DialogTitle>Email Content</DialogTitle>
+        <DialogTitle>Content</DialogTitle>
         <DialogContent dividers>
           {selectedMailContent &&
             selectedMailContent.map((line, index) => (
-              <DialogContentText key={index} variant="body2" sx={{ marginBottom: 1 }}>
+              <DialogContentText
+                key={index}
+                variant="body2"
+                sx={{ marginBottom: 1 }}
+              >
                 {line}
               </DialogContentText>
             ))}
