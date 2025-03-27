@@ -31,6 +31,7 @@ import SignUp from "layouts/authentication/sign-up";
 import AgentDetails from "layouts/dashboard/components/Agents/AgentDetails";
 import AgentConfiguration from "layouts/AgentConfiguration";
 import Orchestration from "layouts/Orchestration";
+import LangGraph_integration from "layouts/LangGraph_integration";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
@@ -68,6 +69,14 @@ const routes = [
     icon: <Icon fontSize="small">fence</Icon>,
     route: "/Orchestration",
     component: <Orchestration />,
+  },
+  {
+    type: "collapse",
+    name: "LangGraph_integration",
+    key: "LangGraph_integration",
+    icon: <Icon fontSize="small">assistant</Icon>,
+    route: "/LangGraph_integration",
+    component: <LangGraph_integration />,
   },
   // {
   //   type: "collapse",
