@@ -29,6 +29,8 @@ function Orchestration() {
             height: "100vh",
             zIndex: 9999,
             backgroundColor: "#fff",
+            display: "flex",
+            flexDirection: "column",
           }}
         >
           {/* Close button */}
@@ -53,6 +55,8 @@ function Orchestration() {
               width: "100%",
               height: "100%",
               border: "none",
+              flex: 1,
+              overflow: "auto", // Add scrollbars if content exceeds view
             }}
           />
         </div>
@@ -63,7 +67,15 @@ function Orchestration() {
           <MDBox py={2}>
             <Grid container spacing={3}>
               <Grid item xs={12}>
-                <MDBox mb={2} position="relative">
+                <MDBox 
+                  mb={2} 
+                  position="relative"
+                  sx={{
+                    height: "calc(100vh - 250px)", // Increased height
+                    minHeight: "600px", // Minimum height to ensure visibility
+                    maxHeight: "800px", // Maximum height to prevent overflow
+                  }}
+                >
                   {/* Expand icon button */}
                   <IconButton
                     onClick={() => setIsExpanded(true)}
@@ -83,10 +95,11 @@ function Orchestration() {
                     title="Orchestration Flows"
                     style={{
                       width: "100%",
-                      height: "calc(100vh - 200px)", // Adjust height as needed
+                      height: "100%", // Use 100% of parent container
                       border: "none",
-                      borderRadius: "15px", // Optional: add rounded corners
-                      boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Optional: add shadow
+                      borderRadius: "15px",
+                      boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+                      overflow: "auto", // Add scrollbars if needed
                     }}
                   />
                 </MDBox>

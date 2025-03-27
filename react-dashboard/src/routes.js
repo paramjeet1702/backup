@@ -35,6 +35,7 @@ import LangGraph_integration from "layouts/LangGraph_integration";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
+import LangGraphPage from "layouts/LangGraph_integration";
 
 const routes = [
   {
@@ -72,11 +73,11 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "LangGraph_integration",
-    key: "LangGraph_integration",
-    icon: <Icon fontSize="small">assistant</Icon>,
-    route: "/LangGraph_integration",
-    component: <LangGraph_integration />,
+    name: "LangGraph",
+    key: "LangGraph",
+    icon: <Icon fontSize="small">chat</Icon>,
+    route: "/LangGraph",
+    component: <LangGraphPage />,
   },
   // {
   //   type: "collapse",
