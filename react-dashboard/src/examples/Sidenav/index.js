@@ -147,6 +147,12 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
       {...rest}
       variant="permanent"
       ownerState={{ transparentSidenav, whiteSidenav, miniSidenav, darkMode }}
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        height: '100%',
+        overflow: 'hidden', // Prevent overall scrolling
+      }}
     >
       <MDBox pt={3} pb={0} px={4} textAlign="center">
         <MDBox
@@ -256,9 +262,44 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
           (darkMode && !transparentSidenav && whiteSidenav)
         }
       />
-      <List>{renderRoutes}</List>
-      {/* Image rendered at the bottom of the sidenav */}
-      <MDBox p={2} mt="auto" textAlign="center">
+      {/* Scrollable Routes Container */}
+      <List 
+        sx={{
+          flexGrow: 1,
+          overflowY: 'auto', // Enable vertical scrolling only for routes
+          overflowX: 'hidden', // Prevent horizontal scrolling
+          height: '100%', // Take remaining vertical space
+          
+          // Custom scrollbar styling
+          '&::-webkit-scrollbar': {
+            width: '8px', // Thin scrollbar
+          },
+          '&::-webkit-scrollbar-track': {
+            background: 'transparent', // Transparent track
+            borderRadius: '10px',
+          },
+          '&::-webkit-scrollbar-thumb': {
+            background: 'rgba(0, 0, 0, 0.2)', // Subtle gray for light mode
+            borderRadius: '10px',
+            '&:hover': {
+              background: 'rgba(0, 0, 0, 0.3)', // Slightly darker on hover
+            }
+          },
+          // Dark mode scrollbar (if needed)
+          ...(darkMode && {
+            '&::-webkit-scrollbar-thumb': {
+              background: 'rgba(255, 255, 255, 0.2)', // Subtle light gray for dark mode
+              '&:hover': {
+                background: 'rgba(255, 255, 255, 0.3)', // Slightly lighter on hover
+              }
+            }
+          })
+        }}
+      >
+        {renderRoutes}
+      </List>
+      {/* Fixed Bottom Image */}
+      <MDBox p={2} textAlign="center">
         <img
           src={relaiImg}
           alt="Relai"
