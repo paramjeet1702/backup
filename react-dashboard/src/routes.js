@@ -55,30 +55,31 @@ const routes = [
     component: <Emails />,
   },
 
-  {
-    type: "collapse",
-    name: "Agent Configuration",
-    key: "AgentConfiguration",
-    icon: <Icon fontSize="small">assistant</Icon>,
-    route: "/AgentConfiguration",
-    component: <AgentConfiguration />,
-  },
-  {
-    type: "collapse",
-    name: "Orchestration",
-    key: "LangFlow",
-    icon: <Icon fontSize="small">fence</Icon>,
-    route: "/Orchestration",
-    component: <Orchestration />,
-  },
-  {
-    type: "collapse",
-    name: "LangGraph",
-    key: "LangGraph",
-    icon: <Icon fontSize="small">chat</Icon>,
-    route: "/LangGraph",
-    component: <LangGraphPage />,
-  },
+{
+  type: "collapse",
+  name: "Agent Configuration",
+  key: "AgentConfiguration",
+  icon: <Icon fontSize="small">assistant</Icon>,  
+  route: "/AgentConfiguration",
+  component: <AgentConfiguration />,
+}
+
+  // {
+  //   type: "collapse",
+  //   name: "Orchestration",
+  //   key: "LangFlow",
+  //   icon: <Icon fontSize="small">fence</Icon>,
+  //   route: "/Orchestration",
+  //   component: <Orchestration />,
+  // },
+  // {
+  //   type: "collapse",
+  //   name: "Agent Chat",
+  //   key: "AgentChat",
+  //   icon: <Icon fontSize="small">chat</Icon>,
+  //   route: "/Agent-Chat",
+  //   component: <LangGraphPage />,
+  // },
   // {
   //   type: "collapse",
   //   name: "Agent Details",

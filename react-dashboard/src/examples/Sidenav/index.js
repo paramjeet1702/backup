@@ -35,6 +35,9 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
   const { miniSidenav, transparentSidenav, whiteSidenav, darkMode } = controller;
   const location = useLocation();
   const collapseName = location.pathname.replace("/", "");
+  
+  // Add state for logo URL
+  const [logoUrl, setLogoUrl] = useState(brand);
 
   let textColor = "white";
   if (transparentSidenav || (whiteSidenav && !darkMode)) {
@@ -70,6 +73,35 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
         Math.min(textareaRef.current.scrollHeight, 80) + "px";
     }
   }, [brandNameState, isAdmin]);
+
+  // Add this effect to handle logo loading and updates
+  useEffect(() => {
+    // Load the saved logo when the component mounts
+    const savedLogo = localStorage.getItem("customLogo_fsladmin") || 
+                     localStorage.getItem("customLogo_global");
+    if (savedLogo) {
+      setLogoUrl(savedLogo);
+    } else if (brand) {
+      setLogoUrl(brand);
+    }
+    
+    // Listen for logo update events
+    const handleLogoUpdate = (event) => {
+      setLogoUrl(event.detail.logoUrl);
+    };
+    
+    window.addEventListener('logoUpdated', handleLogoUpdate);
+    
+    // Expose a function to update the logo from other components
+    window.updateGlobalLogo = (url) => {
+      setLogoUrl(url);
+    };
+    
+    return () => {
+      window.removeEventListener('logoUpdated', handleLogoUpdate);
+      window.updateGlobalLogo = undefined;
+    };
+  }, [brand]);
 
   // Handle brand name change (for admins only)
   const handleBrandNameChange = (event) => {
@@ -175,12 +207,12 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
           justifyContent="center"
           width="100%"
         >
-          {/* Clickable Logo */}
-          {brand && (
+          {/* Clickable Logo - Now using logoUrl instead of brand */}
+          {logoUrl && (
             <NavLink to="/">
               <MDBox
                 component="img"
-                src={brand}
+                src={logoUrl}
                 alt="Brand"
                 width="80px"
                 height="auto"

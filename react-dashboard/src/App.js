@@ -29,11 +29,21 @@ import brandDark from "assets/images/logo-ct-dark.png";
 
 export default function App() {
   const [controller, dispatch] = useMaterialUIController();
-  const { miniSidenav, direction, layout, openConfigurator, sidenavColor, transparentSidenav, whiteSidenav, darkMode } = controller;
+  const {
+    miniSidenav,
+    direction,
+    layout,
+    openConfigurator,
+    sidenavColor,
+    transparentSidenav,
+    whiteSidenav,
+    darkMode
+  } = controller;
   const { pathname } = useLocation();
   const [onMouseEnter, setOnMouseEnter] = useState(false);
   const [rtlCache, setRtlCache] = useState(null);
-  const [brandLogo, setBrandLogo] = useState(null);
+  const defaultLogo = (transparentSidenav && !darkMode) || whiteSidenav ? brandDark : brandWhite;
+  const [brandLogo, setBrandLogo] = useState(defaultLogo);
   const [brandName, setBrandName] = useState("AI Dashboard");
 
   const checkAuthStatus = () => {
@@ -49,20 +59,50 @@ export default function App() {
   }, []);
 
   useEffect(() => {
+    const savedLogo =
+      localStorage.getItem("customLogo_fsladmin") ||
+      localStorage.getItem("customLogo_global");
+    if (savedLogo) {
+      setBrandLogo(savedLogo);
+    }
+
+    const handleLogoUpdate = (event) => {
+      setBrandLogo(event.detail.logoUrl);
+    };
+
+    window.addEventListener("logoUpdated", handleLogoUpdate);
+    return () => window.removeEventListener("logoUpdated", handleLogoUpdate);
+  }, []);
+
+  useEffect(() => {
     if (isLoggedIn) {
-      const globalLogo = localStorage.getItem("customLogo_global");
-      if (globalLogo) {
-        setBrandLogo(globalLogo);
-      } else {
-        const userKey = localStorage.getItem("isAdminLoggedIn") === "true" ? "adminUsername" : "username";
-        const storedLogo = localStorage.getItem(`customLogo_${localStorage.getItem(userKey)}`);
-        setBrandLogo(storedLogo || ((transparentSidenav && !darkMode) || whiteSidenav ? brandDark : brandWhite));
+      const globalLogoUrl = localStorage.getItem("customLogo_global");
+
+      if (!globalLogoUrl) {
+        const apiLogoUrl = `http://172.178.112.88:8125/app6/image/?name=global_logo`;
+
+        fetch(apiLogoUrl)
+          .then((res) => {
+            if (!res.ok) throw new Error("No logo");
+            return res.blob();
+          })
+          .then((blob) => {
+            const imgUrl = URL.createObjectURL(blob);
+            setBrandLogo(imgUrl);
+            localStorage.setItem("customLogo_global", apiLogoUrl);
+          })
+          .catch(() => {
+            setBrandLogo(
+              (transparentSidenav && !darkMode) || whiteSidenav
+                ? brandDark
+                : brandWhite
+            );
+          });
       }
     } else {
       setBrandLogo(null);
     }
 
-    // Load the brand name
     const storedGlobalBrandName = localStorage.getItem("customBrandName_global");
     if (storedGlobalBrandName) {
       setBrandName(storedGlobalBrandName);
@@ -83,27 +123,60 @@ export default function App() {
     }
   };
 
-  const handleConfiguratorOpen = () => setOpenConfigurator(dispatch, !openConfigurator);
+  const handleConfiguratorOpen = () =>
+    setOpenConfigurator(dispatch, !openConfigurator);
 
   const handleLogout = () => {
-    ["isLoggedIn", "username", "token", "tokenExpiration", "isAdminLoggedIn", "adminUsername", "adminToken", "adminTokenExpiration"].forEach(item => localStorage.removeItem(item));
+    [
+      "isLoggedIn",
+      "username",
+      "token",
+      "tokenExpiration",
+      "isAdminLoggedIn",
+      "adminUsername",
+      "adminToken",
+      "adminTokenExpiration"
+    ].forEach((item) => localStorage.removeItem(item));
     window.location.href = "/authentication/sign-in";
   };
 
   return (
-    <ThemeProvider theme={direction === "rtl" ? (darkMode ? themeDarkRTL : themeRTL) : (darkMode ? themeDark : theme)}>
+    <ThemeProvider
+      theme={
+        direction === "rtl"
+          ? darkMode
+            ? themeDarkRTL
+            : themeRTL
+          : darkMode
+          ? themeDark
+          : theme
+      }
+    >
       <CssBaseline />
       {isLoggedIn && layout === "dashboard" && (
         <>
-          <Sidenav color={sidenavColor} brand={brandLogo} brandName={brandName} routes={routes} onMouseEnter={handleOnMouseEnter} onMouseLeave={handleOnMouseLeave} />
+          <Sidenav
+            color={sidenavColor}
+            brand={brandLogo}
+            brandName={brandName}
+            routes={routes}
+            onMouseEnter={handleOnMouseEnter}
+            onMouseLeave={handleOnMouseLeave}
+          />
           <Configurator />
         </>
       )}
       <Routes>
         {isLoggedIn ? (
           <>
-            {routes.map(route => <Route key={route.key} path={route.route} element={route.component} />)}
-            <Route path="/logout" element={<Navigate to="/authentication/sign-in" />} action={handleLogout} />
+            {routes.map((route) => (
+              <Route key={route.key} path={route.route} element={route.component} />
+            ))}
+            <Route
+              path="/logout"
+              element={<Navigate to="/authentication/sign-in" />}
+              action={handleLogout}
+            />
             <Route path="*" element={<Navigate to="/dashboard" />} />
           </>
         ) : (

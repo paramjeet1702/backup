@@ -59,10 +59,30 @@ function Configurator() {
 
   useEffect(() => {
     if (user) {
-      const storedLogo = localStorage.getItem(`customLogo_${user.name}`);
-      setCustomLogo(storedLogo || "");
+      const imageUrl = `http://172.178.112.88:8125/app6/image/?name=${user.name}`;
+      fetch(imageUrl)
+        .then((res) => {
+          if (!res.ok) throw new Error("Not found");
+          return res.blob();
+        })
+        .then((blob) => {
+          const imgURL = URL.createObjectURL(blob);
+          setCustomLogo(imgURL);
+  
+          // cache
+          sessionStorage.setItem("customLogo_session", imgURL);
+          localStorage.setItem("customLogo_global", imgURL);
+          localStorage.setItem(`customLogo_fsladmin}`, imgURL);
+        })
+        .catch(() => {
+          // fallback
+          const storedLogo = localStorage.getItem(`customLogo_${user.name}`);
+          setCustomLogo(storedLogo || "");
+        });
     }
   }, [user]);
+  
+  
 
   const handleCloseConfigurator = () => setOpenConfigurator(dispatch, false);
   const handleTransparentSidenav = () => {
@@ -131,24 +151,91 @@ function Configurator() {
   
 
   // Handle logo upload: read file as base64 and store in state and localStorage
-  const handleLogoUpload = (e) => {
+  // const handleLogoUpload = async (e) => {
+  //   const file = e.target.files[0];
+  //   if (file && user?.name) {
+  //     const formData = new FormData();
+  //     formData.append("name", user.name);
+  //     formData.append("file", file);
+  
+  //     try {
+  //       const response = await fetch("http://172.178.112.88:8125/app6/upload-image/", {
+  //         method: "POST",
+  //         body: formData,
+  //       });
+  
+  //       if (!response.ok) {
+  //         const errorData = await response.json();
+  //         throw new Error(errorData.detail || "Image upload failed");
+  //       }
+  
+  //       const result = await response.json();
+  //       const imageUrl = `http://172.178.112.88:8125/app6/image/?name=${user.name}`;
+  
+  //       setCustomLogo(imageUrl);
+  
+  //       // Still cache for session or fallback
+  //       if (user.type === "admin") {
+  //         sessionStorage.setItem("customLogo_session", imageUrl);
+  //         localStorage.setItem("customLogo_global", imageUrl);
+  //         localStorage.setItem(`customLogo_${user.name}`, imageUrl);
+  //       }
+  //     } catch (error) {
+  //       console.error("Upload error:", error.message);
+  //       alert("Failed to upload logo. " + error.message);
+  //     }
+  //   }
+  // };
+
+  const handleLogoUpload = async (e) => {
     const file = e.target.files[0];
     if (file) {
-      const reader = new FileReader();
-      reader.onloadend = () => {
-        setCustomLogo(reader.result);
-        // Save using a global key if the user is admin
-        if (user && user.type === "admin") {
-          localStorage.setItem("customLogo_global", reader.result);
+      const formData = new FormData();
+      // Always use "fsladmin" as the name as requested
+      formData.append("name", "fsladmin");
+      formData.append("file", file);
+      
+      try {
+        const response = await fetch("http://172.178.112.88:8125/app6/upload-image/", {
+          method: "POST",
+          body: formData,
+        });
+        
+        if (!response.ok) {
+          const errorData = await response.json();
+          throw new Error(errorData.detail || "Image upload failed");
         }
-        // Also save to the user-specific key
-        localStorage.setItem(`customLogo_${user.name}`, reader.result);
-      };
-      reader.readAsDataURL(file);
+        
+        // Add timestamp to force cache refresh
+        const timestamp = new Date().getTime();
+        const imageUrl = `http://172.178.112.88:8125/app6/image/?name=fsladmin&t=${timestamp}`;
+        
+        // Update UI
+        setCustomLogo(imageUrl);
+        
+        // Store in both local and sessionStorage with consistent naming
+        localStorage.setItem("customLogo_global", imageUrl);
+        localStorage.setItem("customLogo_fsladmin", imageUrl);
+        sessionStorage.setItem("customLogo_session", imageUrl);
+        
+        // Create a custom event to notify other components about logo change
+        const event = new CustomEvent('logoUpdated', { 
+          detail: { logoUrl: imageUrl } 
+        });
+        window.dispatchEvent(event);
+        
+        // Force a refresh of the logo in the Sidenav
+        if (window.updateGlobalLogo) {
+          window.updateGlobalLogo(imageUrl);
+        }
+        
+      } catch (error) {
+        console.error("Upload error:", error.message);
+        alert("Failed to upload logo. " + error.message);
+      }
     }
   };
   
-
   // Handle removal of the custom logo
   const handleRemoveLogo = () => {
     setCustomLogo("");
